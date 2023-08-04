@@ -618,8 +618,8 @@ a:focus {
 
 /* info section */
 .footer_bg {
-  background: -webkit-gradient(linear, left top, right top, from(#ffd900), to(#ffd900));
-  background: linear-gradient(to right, #ffd900, #ffd900);
+  background: -webkit-gradient(linear, left top, right top, from(#e3e3e3), to(#e3e3e3));
+  background: linear-gradient(to right, #e3e3e3, #e3e3e3);
   padding-top: 150px;
   margin-top: 0px;
 }
