@@ -1,0 +1,19 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-04-25 11:46] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-04-25 11:46] Cliente : hola 
+[2022-04-25 11:46] Bernardino : ¿En que estas interesado/a?
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-04-25 11:46] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-04-25 11:46] Cliente : buenos dias
+[2022-04-25 11:46] Bernardino : ¿En que estas interesado/a?
+[2022-04-25 11:46] Cliente : servicio de examenes medicos ocupacionales
+[2022-04-25 11:46] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-04-25 11:46] Cliente : mischel ortiz
+[2022-04-25 11:46] Bernardino : Hola mischel ortiz, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-04-25 11:46] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-04-25 11:46] Cliente : 3204854324
+[2022-04-25 11:46] Bernardino : ¿Podrías dejarme tu email?
+[2022-04-25 11:47] Cliente : mischel.ortiz@sudamin.com.co
+[2022-04-25 11:47] Bernardino : ¿Quieres dejarme alguna consulta adicional?
+[2022-04-25 11:47] Cliente : no gracias
+[2022-04-25 11:47] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!

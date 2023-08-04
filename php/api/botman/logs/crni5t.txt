@@ -1,0 +1,6 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-06-02 09:35] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-06-02 09:35] Cliente : Holas una consulta cuento es el costo del carnet de manipulación de alimentos 
+[2022-06-02 09:35] Bernardino : ¿En que estas interesado/a?
+[2022-06-02 09:36] Cliente : En el examen para la manipulación de alimentos
+[2022-06-02 09:36] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?

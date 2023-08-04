@@ -1,0 +1,15 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-01 14:18] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-01 14:18] Cliente : buenas tardes 
+[2022-05-01 14:18] Bernardino : ¿En que estas interesado/a?
+[2022-05-01 14:18] Cliente : examen medico ocupacional con enfasis en altura 
+[2022-05-01 14:18] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-01 14:18] Cliente : Luis enrique de logistica integral rya sas
+[2022-05-01 14:18] Bernardino : Hola Luis enrique de logistica integral rya sas, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-01 14:18] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-05-01 14:18] Cliente : 3126244999
+[2022-05-01 14:18] Bernardino : ¿Podrías dejarme tu email?
+[2022-05-01 14:19] Cliente : operaciones@logisticaintegralrya.com
+[2022-05-01 14:19] Bernardino : ¿Quieres dejarme alguna consulta adicional?
+[2022-05-01 14:19] Cliente : no
+[2022-05-01 14:19] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!

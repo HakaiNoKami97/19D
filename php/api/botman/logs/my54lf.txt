@@ -1,0 +1,15 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-06-03 11:12] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-06-03 11:12] Cliente : Hola buen día 
+[2022-06-03 11:12] Bernardino : ¿En que estas interesado/a?
+[2022-06-03 11:12] Cliente : En saber el precio de unos laboratorios 
+[2022-06-03 11:12] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-06-03 11:12] Cliente : Yeimy 
+[2022-06-03 11:12] Bernardino : Hola Yeimy , yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-06-03 11:12] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-06-03 11:12] Cliente : 3228549714
+[2022-06-03 11:12] Bernardino : ¿Podrías dejarme tu email?
+[2022-06-03 11:13] Cliente : camilo198779@gmail.com
+[2022-06-03 11:13] Bernardino : ¿Quieres dejarme alguna consulta adicional?
+[2022-06-03 11:13] Cliente : Gracias 
+[2022-06-03 11:13] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!

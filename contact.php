@@ -159,15 +159,15 @@
                     data: formData,
                     success: function(response) {
                         Swal.fire({
-                            icon: 'success',
-                            text: 'Formulario enviado con éxito:'
-                        }, response);
+                            icon: response.status,
+                            text: response.message
+                        });
                     },
                     error: function(xhr, status, error) {
                         Swal.fire({
                             icon: 'error',
                             text: 'Error al enviar el formulario:'
-                        }, error);
+                        });
                     }
                 });
             });

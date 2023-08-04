@@ -1,0 +1,25 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-02 10:20] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-02 10:20] Cliente : Hola
+[2022-05-02 10:20] Bernardino : ¿En que estas interesado/a?
+[2022-05-02 10:20] Cliente : En Servicios de prueba
+[2022-05-02 10:20] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-02 10:20] Cliente : Juan Mendoza
+[2022-05-02 10:20] Bernardino : Hola Juan Mendoza, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-02 10:20] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-05-02 10:20] Cliente : 3209060336
+[2022-05-02 10:20] Bernardino : ¿Podrías dejarme tu email?
+[2022-05-02 10:21] Cliente : jdmoviedo@hotmail.com
+[2022-05-02 10:21] Bernardino : ¿Quieres dejarme alguna consulta adicional?
+[2022-05-02 10:21] Cliente : Es una prueba !!!
+[2022-05-02 10:21] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!
+[2022-05-02 10:21] Cliente : Es una pryeba
+[2022-05-02 10:21] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!
+[2022-05-02 10:23] Cliente : Prueba
+[2022-05-02 10:23] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!
+[2022-05-02 10:23] Cliente : hola
+[2022-05-02 10:23] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!
+[2022-05-02 10:24] Cliente : hola
+[2022-05-02 10:24] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!
+[2022-05-02 10:31] Cliente : sdfsdf
+[2022-05-02 10:31] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!

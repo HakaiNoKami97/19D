@@ -1,0 +1,15 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-07 07:21] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-07 07:21] Cliente : Buenos días 
+[2022-05-07 07:21] Bernardino : ¿En que estas interesado/a?
+[2022-05-07 07:22] Cliente : Una pregunta q precio tiene el examen exputo
+[2022-05-07 07:22] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-07 07:22] Cliente : Omar acelas 
+[2022-05-07 07:22] Bernardino : Hola Omar acelas , yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-07 07:22] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-05-07 07:23] Cliente : 3168486023
+[2022-05-07 07:23] Bernardino : ¿Podrías dejarme tu email?
+[2022-05-07 07:23] Cliente : omar1406acelas@gmail.com 
+[2022-05-07 07:23] Bernardino : ¿Quieres dejarme alguna consulta adicional?
+[2022-05-07 07:23] Cliente : No gracias 
+[2022-05-07 07:23] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!

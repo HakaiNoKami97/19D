@@ -1,0 +1,15 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-24 09:42] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-24 09:42] Cliente : Buenos dias, te escribe la empresa Transcarvajal 
+[2022-05-24 09:42] Bernardino : ¿En que estas interesado/a?
+[2022-05-24 09:43] Cliente : Deseo el apoyo a la respuesta de un correo que enviamos de una solicitud
+[2022-05-24 09:43] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-24 09:43] Cliente : Carlos Meza
+[2022-05-24 09:43] Bernardino : Hola Carlos Meza, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-24 09:43] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-05-24 09:43] Cliente : 3134229627
+[2022-05-24 09:43] Bernardino : ¿Podrías dejarme tu email?
+[2022-05-24 09:43] Cliente : cabetomeza@hotmail.com
+[2022-05-24 09:43] Bernardino : ¿Quieres dejarme alguna consulta adicional?
+[2022-05-24 09:44] Cliente : Solo quedo atento para que me colaboren con la solictud
+[2022-05-24 09:44] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!

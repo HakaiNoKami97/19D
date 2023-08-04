@@ -1,0 +1,9 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-04-27 22:15] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-04-27 22:15] Cliente : Hola
+[2022-04-27 22:15] Bernardino : ¿En que estas interesado/a?
+[2022-04-27 22:15] Cliente : Colocar una queja 
+[2022-04-27 22:15] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-04-27 22:15] Cliente : Daniel
+[2022-04-27 22:15] Bernardino : Hola Daniel, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-04-27 22:15] Bernardino : ¿Podrías dejarme tu teléfono?

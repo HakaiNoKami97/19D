@@ -1,0 +1,13 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-23 06:31] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-23 06:31] Cliente : Buenos días necesito una cotización 
+[2022-05-23 06:31] Bernardino : ¿En que estas interesado/a?
+[2022-05-23 06:32] Cliente : TSH ultrasensible 
+[2022-05-23 06:32] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-23 06:32] Cliente : Prolactina serica
+[2022-05-23 06:32] Bernardino : Hola Prolactina serica, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-23 06:32] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-05-23 06:32] Cliente : Berenice 
+[2022-05-23 06:32] Bernardino : Necesitaría un teléfono valido para que podamos contactarte. Digita de nuevo el teléfono
+[2022-05-23 06:32] Cliente : 3002709173
+[2022-05-23 06:32] Bernardino : ¿Podrías dejarme tu email?

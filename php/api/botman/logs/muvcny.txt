@@ -1,0 +1,15 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-23 07:52] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-23 07:52] Cliente : Hola buenos dias
+[2022-05-23 07:52] Bernardino : ¿En que estas interesado/a?
+[2022-05-23 07:52] Cliente : en unos examen para prueba de embarazo
+[2022-05-23 07:52] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-23 07:52] Cliente : LEIDI CARREÑO
+[2022-05-23 07:52] Bernardino : Hola LEIDI CARREÑO, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-23 07:52] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-05-23 07:52] Cliente : 3013462840
+[2022-05-23 07:52] Bernardino : ¿Podrías dejarme tu email?
+[2022-05-23 07:53] Cliente : 12leidy41@gmail.com
+[2022-05-23 07:53] Bernardino : ¿Quieres dejarme alguna consulta adicional?
+[2022-05-23 07:53] Cliente : no señor gracias
+[2022-05-23 07:53] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!

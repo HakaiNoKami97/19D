@@ -1,0 +1,17 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-31 16:20] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-31 16:20] Cliente : Buenas tardes
+[2022-05-31 16:20] Bernardino : ¿En que estas interesado/a?
+[2022-05-31 16:20] Cliente : Tengo una orden para un antígeno covid
+[2022-05-31 16:20] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-31 16:20] Cliente : Por colmedica prepagada 
+[2022-05-31 16:20] Bernardino : Hola Por colmedica prepagada , yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-31 16:20] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-05-31 16:21] Cliente : Aída luz
+[2022-05-31 16:21] Bernardino : Necesitaría un teléfono valido para que podamos contactarte. Digita de nuevo el teléfono
+[2022-05-31 16:21] Cliente : 3004847077
+[2022-05-31 16:21] Bernardino : ¿Podrías dejarme tu email?
+[2022-05-31 16:21] Cliente : isabella040411@gmail.com
+[2022-05-31 16:21] Bernardino : ¿Quieres dejarme alguna consulta adicional?
+[2022-05-31 16:21] Cliente : Horario para la toma
+[2022-05-31 16:21] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!

@@ -1,0 +1,15 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-04 07:09] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-04 07:09] Cliente : Hola, buenos días…
+[2022-05-04 07:09] Bernardino : ¿En que estas interesado/a?
+[2022-05-04 07:09] Cliente : Unos exámenes de egreso de mi empleada doméstica y unos de ingreso de mi nueva empleada
+[2022-05-04 07:09] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-04 07:10] Cliente : Yurledinson
+[2022-05-04 07:10] Bernardino : Hola Yurledinson, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-04 07:10] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-05-04 07:10] Cliente : 3204922964
+[2022-05-04 07:10] Bernardino : ¿Podrías dejarme tu email?
+[2022-05-04 07:10] Cliente : yurledinson.hernandez@gmail.com
+[2022-05-04 07:10] Bernardino : ¿Quieres dejarme alguna consulta adicional?
+[2022-05-04 07:11] Cliente : No, eso es todo
+[2022-05-04 07:11] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!

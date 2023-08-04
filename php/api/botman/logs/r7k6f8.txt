@@ -1,0 +1,15 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-17 14:12] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-17 14:12] Cliente : Hola buenas tardes
+[2022-05-17 14:12] Bernardino : ¿En que estas interesado/a?
+[2022-05-17 14:12] Cliente : Quiero realizar una consulta 
+[2022-05-17 14:12] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-17 14:12] Cliente :  Miguel mavarro
+[2022-05-17 14:12] Bernardino : Hola  Miguel mavarro, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-17 14:12] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-05-17 14:13] Cliente : 3042440582
+[2022-05-17 14:13] Bernardino : ¿Podrías dejarme tu email?
+[2022-05-17 14:13] Cliente : navarror89@gmail.com 
+[2022-05-17 14:13] Bernardino : ¿Quieres dejarme alguna consulta adicional?
+[2022-05-17 14:14] Cliente : Si. Es que me enviaron de parte de italco  a realizar los exámenes de ingreso y me enviaron un mensaje para el día sábado.. pero por ser un texto no ví el mensaje.  Y perdí el día.. puedo reizae el examen el día de mañana.  Con esa misma orden. 
+[2022-05-17 14:14] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!

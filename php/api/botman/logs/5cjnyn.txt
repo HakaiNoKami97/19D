@@ -1,0 +1,15 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-23 11:21] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-23 11:21] Cliente : Hola muy buenos días 
+[2022-05-23 11:21] Bernardino : ¿En que estas interesado/a?
+[2022-05-23 11:21] Cliente : Quisiera averiguar sobre un examen si lo realizan ahí y que costo tiene 
+[2022-05-23 11:21] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-23 11:21] Cliente : Adriana Lucia Franco 
+[2022-05-23 11:21] Bernardino : Hola Adriana Lucia Franco , yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-23 11:21] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-05-23 11:22] Cliente : 3017894170
+[2022-05-23 11:22] Bernardino : ¿Podrías dejarme tu email?
+[2022-05-23 11:22] Cliente : adrianaluciafranco.a@gmail.com 
+[2022-05-23 11:22] Bernardino : ¿Quieres dejarme alguna consulta adicional?
+[2022-05-23 11:23] Cliente : El examen se llama trypanosoma crucy igm
+[2022-05-23 11:23] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!

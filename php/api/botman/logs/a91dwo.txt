@@ -1,0 +1,17 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-11 11:36] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-11 11:36] Cliente : BUENAS ME PODRIAN SUMINISTRAR LICENCIA DE MDICOS OCUPACIONALES, LICNCIA DE LA IPS Y CERTIFICADO DE CUSTODIA DE EXAMENES OCUPACINALES. GRACIAS
+[2022-05-11 11:36] Bernardino : ¿En que estas interesado/a?
+[2022-05-11 11:43] Cliente : licencias
+[2022-05-11 11:43] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-11 11:43] Cliente : Ludy gomez
+[2022-05-11 11:43] Bernardino : Hola Ludy gomez, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-11 11:43] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-05-11 11:43] Cliente : 3132474540
+[2022-05-11 11:43] Bernardino : ¿Podrías dejarme tu email?
+[2022-05-11 11:43] Cliente : ludygomez22@hotmail,
+[2022-05-11 11:43] Bernardino : Necesitaría un email valido para que podamos contactarte. Digita de nuevo el email
+[2022-05-11 11:44] Cliente : ludygomez22@hotmail.com
+[2022-05-11 11:44] Bernardino : ¿Quieres dejarme alguna consulta adicional?
+[2022-05-11 11:44] Cliente : no 
+[2022-05-11 11:44] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!

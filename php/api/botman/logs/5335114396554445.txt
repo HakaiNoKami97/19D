@@ -1,0 +1,17 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-04-22 08:53] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-04-22 08:53] Cliente : Array
+[2022-04-22 08:53] Bernardino : ¿En que estas interesado/a?
+[2022-04-22 08:54] Cliente : Quisiera conocer el precio de una prueba de ADN
+[2022-04-22 08:54] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-04-22 08:54] Cliente : Silvia Ariza
+[2022-04-22 08:54] Bernardino : Hola Silvia Ariza, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-04-22 08:54] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-04-22 08:54] Cliente : 3188946812
+[2022-04-22 08:54] Bernardino : ¿Podrías dejarme tu email?
+[2022-04-22 08:54] Cliente : Prueba.silvia.nocontedtar
+[2022-04-22 08:54] Bernardino : Necesitaría un email valido para que podamos contactarte. Digita de nuevo el email
+[2022-04-22 08:55] Cliente : Prueba.nocontestar@gmail.com
+[2022-04-22 08:55] Bernardino : ¿Quieres dejarme alguna consulta adicional?
+[2022-04-22 08:55] Cliente : Gracias
+[2022-04-22 08:55] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!

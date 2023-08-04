@@ -1,0 +1,15 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-26 14:32] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-26 14:32] Cliente : Buenas tardes 
+[2022-05-26 14:32] Bernardino : ¿En que estas interesado/a?
+[2022-05-26 14:33] Cliente : Tiene electrocardiograma  a domicilio 
+[2022-05-26 14:33] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-26 14:33] Cliente : Jairo 
+[2022-05-26 14:33] Bernardino : Hola Jairo , yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-26 14:33] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-05-26 14:33] Cliente : 3196679022
+[2022-05-26 14:33] Bernardino : ¿Podrías dejarme tu email?
+[2022-05-26 14:34] Cliente : jairojesus48@hotmail.com
+[2022-05-26 14:34] Bernardino : ¿Quieres dejarme alguna consulta adicional?
+[2022-05-26 14:34] Cliente : Electro a domicilio 
+[2022-05-26 14:34] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!

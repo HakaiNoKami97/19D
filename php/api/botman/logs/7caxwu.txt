@@ -1,0 +1,15 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-06-01 21:48] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-06-01 21:48] Cliente : Hola
+[2022-06-01 21:48] Bernardino : ¿En que estas interesado/a?
+[2022-06-01 21:48] Cliente : Resultados 
+[2022-06-01 21:48] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-06-01 21:48] Cliente : Juan
+[2022-06-01 21:48] Bernardino : Hola Juan, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-06-01 21:48] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-06-01 21:49] Cliente : 3172284814
+[2022-06-01 21:49] Bernardino : ¿Podrías dejarme tu email?
+[2022-06-01 21:49] Cliente : mariapulido.17@hotmail.com
+[2022-06-01 21:49] Bernardino : ¿Quieres dejarme alguna consulta adicional?
+[2022-06-01 21:49] Cliente : No
+[2022-06-01 21:49] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!

@@ -765,5 +765,20 @@ a:focus {
   color: #000;
 }
 
+/* Animacion de Chat*/
+.transicion-chat {
+	transition: height 0.8s;
+}
+
+.height-chat {
+	height: 650px !important;
+}
+
+@media screen and (max-width: 480px) {
+	.height-chat {
+		height: 100% !important;
+	}
+}
+
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */

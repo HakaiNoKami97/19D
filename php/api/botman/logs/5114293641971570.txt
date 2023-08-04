@@ -1,0 +1,30 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-04-21 11:40] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-04-21 11:40] Cliente : Array
+[2022-04-21 11:40] Bernardino : ¿En que estas interesado/a?
+[2022-04-21 11:41] Cliente : hola
+[2022-04-21 11:41] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-04-21 11:54] Cliente : Juan Mendoza
+[2022-04-21 11:54] Bernardino : Hola Juan Mendoza, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-04-21 11:54] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-04-21 12:02] Cliente : Hola
+[2022-04-21 12:02] Bernardino : Necesitaría un teléfono valido para que podamos contactarte. Digita de nuevo el teléfono
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-04-21 18:44] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-04-21 18:44] Cliente : Array
+[2022-04-21 18:44] Bernardino : ¿En que estas interesado/a?
+[2022-04-21 18:44] Cliente : Jugar
+[2022-04-21 18:44] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-04-21 18:44] Cliente : Juan Mendoza
+[2022-04-21 18:44] Bernardino : Hola Juan Mendoza, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-04-21 18:44] Bernardino : ¿Podrías dejarme tu teléfono?
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-20 20:35] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-20 20:35] Cliente : Array
+[2022-05-20 20:35] Bernardino : ¿En que estas interesado/a?
+[2022-05-20 20:36] Cliente : Jugar
+[2022-05-20 20:36] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-06-03 07:44] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-06-03 07:44] Cliente : Array
+[2022-06-03 07:44] Bernardino : ¿En que estas interesado/a?

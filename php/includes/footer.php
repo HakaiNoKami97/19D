@@ -133,3 +133,34 @@
     </section>
     <!-- footer section -->
 </div>
+<script src="./js/widget.js"></script>
+<script type="text/javascript">
+    var bAbierta = false;
+    var botmanWidget = {
+        frameEndpoint: 'chat.html',
+        chatServer: 'php/api/botman/chat.php',
+        title: '',
+        mainColor: 'white',
+        bubbleBackground: 'white',
+        aboutText: '',
+        bubbleAvatarUrl: './images/19D.png',
+        headerTextColor: '#14527f',
+        placeholderText: "Escribe Hola",
+        desktopHeight: 600,
+        introMessage: "¡Hola!, Bienvenido a 19D",
+        aboutLink: "",
+    };
+
+    function config_titulo() {
+        setTimeout(() => {
+            $("#titleBot").html(`
+            <div class="topbar-avatar" style=" width: 35px;height: 35px;background-size: cover;border-radius: 50%;clear: both;float: left;background-position: center center;color: #fff;margin-right: 7px;margin-top: 1px;display: inline-block;background-image: url(./images/19D.png);"></div> 
+            <div class="topbar-text" style="display: inline-block;height: 100%;">
+            <div class="topbar-title" style=" font-size: 16px;font-weight: 700;color: #14527f;height: 22px;margin-bottom: 5px;">Bot </div> 
+            <div class="topbar-subtitle" style="color: #14527f;font-size: 12px;line-height: 7px;">
+            <div><span class="icon-status" style="  border-radius: 50%;display: inline-block;width: 8px;height: 8px;margin-right: 4px;background-color: #2ea247;"></span> Disponible ahora </div>
+            </div>
+            </div>`)
+        }, 10);
+    }
+</script>

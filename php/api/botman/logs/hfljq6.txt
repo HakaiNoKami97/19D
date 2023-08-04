@@ -1,0 +1,9 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-16 11:39] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-16 11:39] Cliente : Buenas Tardes 
+[2022-05-16 11:39] Bernardino : ¿En que estas interesado/a?
+[2022-05-16 11:39] Cliente : Hazme un favor de casualidad tienes servisio en Rioacha ?
+[2022-05-16 11:39] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-16 11:40] Cliente : West Engieering 
+[2022-05-16 11:40] Bernardino : Hola West Engieering , yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-16 11:40] Bernardino : ¿Podrías dejarme tu teléfono?

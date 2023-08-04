@@ -1,0 +1,15 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-10 12:28] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-10 12:28] Cliente : Hola
+[2022-05-10 12:28] Bernardino : ¿En que estas interesado/a?
+[2022-05-10 12:28] Cliente : Necesito unos resultados de unos exámenes que me realice
+[2022-05-10 12:28] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-10 12:28] Cliente :  Nury Joya
+[2022-05-10 12:28] Bernardino : Hola  Nury Joya, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-10 12:28] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-05-10 12:28] Cliente : 3207519483
+[2022-05-10 12:28] Bernardino : ¿Podrías dejarme tu email?
+[2022-05-10 12:29] Cliente : joyaorduznury@gmail.com
+[2022-05-10 12:29] Bernardino : ¿Quieres dejarme alguna consulta adicional?
+[2022-05-10 12:29] Cliente : No
+[2022-05-10 12:29] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!

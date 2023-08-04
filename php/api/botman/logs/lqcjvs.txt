@@ -1,0 +1,9 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-06-01 18:08] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-06-01 18:08] Cliente : ¡Hola! 
+[2022-06-01 18:08] Bernardino : ¿En que estas interesado/a?
+[2022-06-01 18:09] Cliente : Tienen prueba de covid? 
+[2022-06-01 18:09] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-06-01 18:10] Cliente : David Morales 
+[2022-06-01 18:10] Bernardino : Hola David Morales , yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-06-01 18:10] Bernardino : ¿Podrías dejarme tu teléfono?

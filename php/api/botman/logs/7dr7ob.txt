@@ -1,0 +1,13 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-10 11:45] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-10 11:45] Cliente : Buenas Tardes
+[2022-05-10 11:45] Bernardino : ¿En que estas interesado/a?
+[2022-05-10 11:45] Cliente : Solicito un correo donde pueda hacer solicitudes de certificados medicos
+[2022-05-10 11:45] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-10 11:45] Cliente : Daniela
+[2022-05-10 11:45] Bernardino : Hola Daniela, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-10 11:45] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-05-10 11:45] Cliente : 3122766277
+[2022-05-10 11:45] Bernardino : ¿Podrías dejarme tu email?
+[2022-05-10 11:46] Cliente : analistasstconcretemos@gmail.com
+[2022-05-10 11:46] Bernardino : ¿Quieres dejarme alguna consulta adicional?

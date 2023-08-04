@@ -1,9 +1,10 @@
 <?php
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 // Incluir la librería PHPMailer
-require 'vendor/autoload.php';
+require 'php/vendor/autoload.php';
 
 // Datos del formulario
 $nombre = $_POST['inputName4'];
@@ -15,19 +16,19 @@ $mensaje = $_POST['inputMessage'];
 if (empty($nombre) || empty($correo) || empty($numero) || empty($mensaje)) {
     echo 'Por favor, completa todos los campos antes de enviar el formulario.';
     exit();
-  }
-if ($servicio === '0' || empty($servicio) || $servicio === null ) {
+}
+if ($servicio === '0' || empty($servicio) || $servicio === null) {
     echo 'Por favor, seleccione un servicio válido.';
     exit();
-  }
-  
+}
+
 // Configurar la conexión SMTP
 $mail = new PHPMailer;
 $mail->isSMTP();
 $mail->Host = 'mail.somos19d.com'; // Cambiar esto por el servidor de correo saliente
 $mail->SMTPAuth = true;
 $mail->Username = 'info@somos19d.com'; // Cambiar esto por tu correo electrónico
-$mail->Password = '!2023.1nf0'; // Cambiar esto por tu contraseña del correo electrónico
+$mail->Password = 'Rvo6229234*'; // Cambiar esto por tu contraseña del correo electrónico
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
 
@@ -40,9 +41,8 @@ $mail->Body = "Nombre: $nombre\nCorreo: $correo\nNúmero: $numero\nServicio: $se
 // Enviar el correo
 if ($mail->send()) {
     $response = array('status' => 'success', 'message' => 'Formulario enviado con éxito');
-  } else {
+} else {
     $response = array('status' => 'error', 'message' => 'Error al enviar el correo: ' . $mail->ErrorInfo);
-  }
-  header('Content-Type: application/json');
-  echo json_encode($response);
-  
+}
+header('Content-Type: application/json');
+echo json_encode($response);

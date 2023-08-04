@@ -1,0 +1,15 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-10 14:19] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-10 14:19] Cliente : hola
+[2022-05-10 14:19] Bernardino : ¿En que estas interesado/a?
+[2022-05-10 14:20] Cliente : evaluacion medico ocupacional de ingreso
+[2022-05-10 14:20] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-10 14:20] Cliente : emilce
+[2022-05-10 14:20] Bernardino : Hola emilce, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-10 14:20] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-05-10 14:20] Cliente : 3117589881
+[2022-05-10 14:20] Bernardino : ¿Podrías dejarme tu email?
+[2022-05-10 14:20] Cliente : admin@cehinversiones.com
+[2022-05-10 14:20] Bernardino : ¿Quieres dejarme alguna consulta adicional?
+[2022-05-10 14:21] Cliente : no
+[2022-05-10 14:21] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!

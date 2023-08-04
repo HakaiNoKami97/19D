@@ -1,0 +1,9 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-04-28 08:11] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-04-28 08:11] Cliente : Buenos días 
+[2022-04-28 08:11] Bernardino : ¿En que estas interesado/a?
+[2022-04-28 08:11] Cliente : Ustedes realizan examen de citología 
+[2022-04-28 08:11] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-04-28 08:12] Cliente : Juliana Aranda
+[2022-04-28 08:12] Bernardino : Hola Juliana Aranda, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-04-28 08:12] Bernardino : ¿Podrías dejarme tu teléfono?

@@ -1,0 +1,11 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-05 18:51] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-05 18:51] Cliente : Buenas tardes 
+[2022-05-05 18:51] Bernardino : ¿En que estas interesado/a?
+[2022-05-05 18:51] Cliente : En una prueba de paternidad 
+[2022-05-05 18:51] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-05 18:51] Cliente : Jonathan Duarte 
+[2022-05-05 18:51] Bernardino : Hola Jonathan Duarte , yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-05 18:51] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-05-05 18:52] Cliente : 3102837919
+[2022-05-05 18:52] Bernardino : ¿Podrías dejarme tu email?

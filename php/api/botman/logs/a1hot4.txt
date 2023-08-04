@@ -1,0 +1,17 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-06-01 11:20] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-06-01 11:20] Cliente : Muy buenos días
+[2022-06-01 11:20] Bernardino : ¿En que estas interesado/a?
+[2022-06-01 11:21] Cliente : propuesta comercial
+[2022-06-01 11:21] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-06-01 11:21] Cliente : Diana Campo
+[2022-06-01 11:21] Bernardino : Hola Diana Campo, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-06-01 11:21] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-06-01 11:21] Cliente : 3152828371
+[2022-06-01 11:21] Bernardino : ¿Podrías dejarme tu email?
+[2022-06-01 11:21] Cliente : tiene un número donde me pueda comunicar con un Asesor Comercial?
+[2022-06-01 11:21] Bernardino : Necesitaría un email valido para que podamos contactarte. Digita de nuevo el email
+[2022-06-01 11:22] Cliente : comercial2@previsips.com
+[2022-06-01 11:22] Bernardino : ¿Quieres dejarme alguna consulta adicional?
+[2022-06-01 11:22] Cliente : iene un número donde me pueda comunicar con un Asesor Comercial?
+[2022-06-01 11:22] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!

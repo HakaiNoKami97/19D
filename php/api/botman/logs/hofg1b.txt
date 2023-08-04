@@ -1,0 +1,4 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-04-27 14:46] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-04-27 14:46] Cliente : Buenas tardes
+[2022-04-27 14:46] Bernardino : ¿En que estas interesado/a?

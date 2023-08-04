@@ -1,0 +1,9 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-27 12:15] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-27 12:15] Cliente : hola buenas tardes, queria averiguar si habia alguna vacante, soy ingeniero ambiente 
+[2022-05-27 12:15] Bernardino : ¿En que estas interesado/a?
+[2022-05-27 12:17] Cliente : tiene alguna vacante para laborar?
+[2022-05-27 12:17] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-27 12:17] Cliente : alvaro lopez
+[2022-05-27 12:17] Bernardino : Hola alvaro lopez, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-27 12:17] Bernardino : ¿Podrías dejarme tu teléfono?

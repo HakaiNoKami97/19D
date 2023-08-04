@@ -1,0 +1,15 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-02 13:16] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-02 13:16] Cliente : Hola 
+[2022-05-02 13:16] Bernardino : ¿En que estas interesado/a?
+[2022-05-02 13:16] Cliente : Quiero saber el costo de un examen de creatinina y el horario de atención para este 
+[2022-05-02 13:16] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-02 13:17] Cliente : Claudia 
+[2022-05-02 13:17] Bernardino : Hola Claudia , yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-02 13:17] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-05-02 13:17] Cliente : 3178868378
+[2022-05-02 13:17] Bernardino : ¿Podrías dejarme tu email?
+[2022-05-02 13:17] Cliente : Cprpimentel@gmail.com 
+[2022-05-02 13:17] Bernardino : ¿Quieres dejarme alguna consulta adicional?
+[2022-05-02 13:18] Cliente : En cuanto tiempo tengo el resultado 
+[2022-05-02 13:18] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!

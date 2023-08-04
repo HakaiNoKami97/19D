@@ -1,0 +1,17 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-25 11:06] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-25 11:06] Cliente : HOLA
+[2022-05-25 11:06] Bernardino : ¿En que estas interesado/a?
+[2022-05-25 11:06] Cliente : EXAMENES EMPRESA
+[2022-05-25 11:06] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-25 11:06] Cliente : LUZ
+[2022-05-25 11:06] Bernardino : Hola LUZ, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-25 11:06] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-05-25 11:06] Cliente : LASERTEC 3166054935
+[2022-05-25 11:06] Bernardino : Necesitaría un teléfono valido para que podamos contactarte. Digita de nuevo el teléfono
+[2022-05-25 11:06] Cliente : 3166054935
+[2022-05-25 11:06] Bernardino : ¿Podrías dejarme tu email?
+[2022-05-25 11:07] Cliente : talentohumano@laserteclab.com
+[2022-05-25 11:07] Bernardino : ¿Quieres dejarme alguna consulta adicional?
+[2022-05-25 11:08] Cliente : deseamos contratar servicios de examenes ingreso y pruebas psicotecnicas
+[2022-05-25 11:08] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!

@@ -1,0 +1,11 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-06 14:38] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-06 14:38] Cliente : buenas tardes
+[2022-05-06 14:38] Bernardino : ¿En que estas interesado/a?
+[2022-05-06 14:38] Cliente : solicitar resultados de laboratorios
+[2022-05-06 14:38] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-06 14:39] Cliente : luzdary
+[2022-05-06 14:39] Bernardino : Hola luzdary, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-06 14:39] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-05-06 14:39] Cliente : 3185875312
+[2022-05-06 14:39] Bernardino : ¿Podrías dejarme tu email?

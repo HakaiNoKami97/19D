@@ -1,0 +1,13 @@
+{
+    "license": "MIT",
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "botman/botman": "2.6.1",
+        "botman/driver-web": "1.5.1",
+        "symfony/cache": "5.3.8",
+        "symfony/var-dumper": "5.3.8",
+        "botman/driver-facebook": "1.11.0",
+        "psr/container": "1.0.0",
+        "league/oauth2-google": "4.0.0"
+    }
+}

@@ -1,0 +1,15 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-06-01 17:04] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-06-01 17:04] Cliente : Hola
+[2022-06-01 17:04] Bernardino : ¿En que estas interesado/a?
+[2022-06-01 17:04] Cliente : Hacen exámenes de vih
+[2022-06-01 17:04] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-06-01 17:04] Cliente : Camilo
+[2022-06-01 17:04] Bernardino : Hola Camilo, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-06-01 17:04] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-06-01 17:05] Cliente : 3043501558
+[2022-06-01 17:05] Bernardino : ¿Podrías dejarme tu email?
+[2022-06-01 17:05] Cliente : camilo.iturriago@gmail.com
+[2022-06-01 17:05] Bernardino : ¿Quieres dejarme alguna consulta adicional?
+[2022-06-01 17:05] Cliente : Saber si hacen exámenes de VIH
+[2022-06-01 17:05] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!

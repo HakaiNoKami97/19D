@@ -1,0 +1,13 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-20 16:40] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-20 16:40] Cliente : Buenas tardes u 
+[2022-05-20 16:40] Bernardino : ¿En que estas interesado/a?
+[2022-05-20 16:41] Cliente : Solicitud de un certificado 
+[2022-05-20 16:41] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-20 16:42] Cliente : José Calixto Ochoa Oviedo 
+[2022-05-20 16:42] Bernardino : Hola José Calixto Ochoa Oviedo , yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-20 16:42] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-05-20 16:42] Cliente : 3207992449
+[2022-05-20 16:42] Bernardino : ¿Podrías dejarme tu email?
+[2022-05-20 16:42] Cliente : libra2629@hotmail.com 
+[2022-05-20 16:42] Bernardino : ¿Quieres dejarme alguna consulta adicional?

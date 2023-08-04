@@ -1,0 +1,15 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-13 21:43] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-13 21:43] Cliente : Hoka bnas noches
+[2022-05-13 21:43] Bernardino : ¿En que estas interesado/a?
+[2022-05-13 21:43] Cliente : Me puedes informar como hago oara una prueba de sangre
+[2022-05-13 21:43] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-13 21:44] Cliente : Es decir prueba de embarazo para mi hija
+[2022-05-13 21:44] Bernardino : Hola Es decir prueba de embarazo para mi hija, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-13 21:44] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-05-13 21:45] Cliente : 3112315257
+[2022-05-13 21:45] Bernardino : ¿Podrías dejarme tu email?
+[2022-05-13 21:45] Cliente : Solo necesito precio  y a que horas 
+[2022-05-13 21:45] Bernardino : Necesitaría un email valido para que podamos contactarte. Digita de nuevo el email
+[2022-05-13 21:46] Cliente : Ok veo que no me puedes informar gracias
+[2022-05-13 21:46] Bernardino : Necesitaría un email valido para que podamos contactarte. Digita de nuevo el email

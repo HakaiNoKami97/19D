@@ -1,0 +1,13 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-27 08:41] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-27 08:41] Cliente : Hola buen dia
+[2022-05-27 08:41] Bernardino : ¿En que estas interesado/a?
+[2022-05-27 08:42] Cliente : Alli hacen prueba de paternidand 
+[2022-05-27 08:42] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-27 08:42] Cliente : ?Helen 
+[2022-05-27 08:42] Bernardino : Hola ?Helen , yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-27 08:42] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-05-27 08:42] Cliente : +56967240158
+[2022-05-27 08:42] Bernardino : Necesitaría un teléfono valido para que podamos contactarte. Digita de nuevo el teléfono
+[2022-05-27 08:49] Cliente : Solo quiero saber si hacen pruebas de adn
+[2022-05-27 08:49] Bernardino : Necesitaría un teléfono valido para que podamos contactarte. Digita de nuevo el teléfono

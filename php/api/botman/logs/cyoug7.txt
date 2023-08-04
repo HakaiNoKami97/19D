@@ -1,0 +1,15 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-02 10:43] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-02 10:43] Cliente : Hola
+[2022-05-02 10:43] Bernardino : ¿En que estas interesado/a?
+[2022-05-02 10:43] Cliente : Esto es una prueba del API REST SKYPE BOT DE lpagina web
+[2022-05-02 10:43] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-02 10:44] Cliente : uJuan Mendoza Prueba
+[2022-05-02 10:44] Bernardino : Hola uJuan Mendoza Prueba, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-02 10:44] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-05-02 10:44] Cliente : 3209060336
+[2022-05-02 10:44] Bernardino : ¿Podrías dejarme tu email?
+[2022-05-02 10:44] Cliente : jdmoviedo@hotmail.com
+[2022-05-02 10:44] Bernardino : ¿Quieres dejarme alguna consulta adicional?
+[2022-05-02 10:44] Cliente : Es una prueba
+[2022-05-02 10:44] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!

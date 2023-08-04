@@ -1,0 +1,15 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-04 16:35] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-04 16:35] Cliente : Buenas Tardes
+[2022-05-04 16:35] Bernardino : ¿En que estas interesado/a?
+[2022-05-04 16:37] Cliente : Solicitar diagnostico de condiciones de salud
+[2022-05-04 16:37] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-04 16:37] Cliente : Daniela Sierra
+[2022-05-04 16:37] Bernardino : Hola Daniela Sierra, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-04 16:37] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-05-04 16:38] Cliente : 3122766277
+[2022-05-04 16:38] Bernardino : ¿Podrías dejarme tu email?
+[2022-05-04 16:38] Cliente : analistasstconcretemos@gmail.com
+[2022-05-04 16:38] Bernardino : ¿Quieres dejarme alguna consulta adicional?
+[2022-05-04 16:38] Cliente : No muchas gracias
+[2022-05-04 16:38] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!

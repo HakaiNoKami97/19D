@@ -1,0 +1,9 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-27 19:04] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-27 19:04] Cliente : Buenas noches
+[2022-05-27 19:04] Bernardino : ¿En que estas interesado/a?
+[2022-05-27 19:05] Cliente : Exámenes de pruebas embarazo, manejan? 
+[2022-05-27 19:05] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-27 19:05] Cliente : Ale
+[2022-05-27 19:05] Bernardino : Hola Ale, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-27 19:05] Bernardino : ¿Podrías dejarme tu teléfono?

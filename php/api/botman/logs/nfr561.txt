@@ -1,0 +1,15 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-05-10 16:14] Bernardino : ¡Hola! Soy Bernardino, Bienvenido a RVO
+[2022-05-10 16:14] Cliente : Hola
+[2022-05-10 16:14] Bernardino : ¿En que estas interesado/a?
+[2022-05-10 16:15] Cliente : Test de  alergia  cutánea 
+[2022-05-10 16:15] Bernardino : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-05-10 16:15] Cliente : Jessica ojeda
+[2022-05-10 16:15] Bernardino : Hola Jessica ojeda, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-05-10 16:15] Bernardino : ¿Podrías dejarme tu teléfono?
+[2022-05-10 16:15] Cliente : 3108846607
+[2022-05-10 16:15] Bernardino : ¿Podrías dejarme tu email?
+[2022-05-10 16:15] Cliente : Alice.0818@hotmail.com 
+[2022-05-10 16:15] Bernardino : ¿Quieres dejarme alguna consulta adicional?
+[2022-05-10 16:16] Cliente : No
+[2022-05-10 16:16] Bernardino : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!
