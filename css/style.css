@@ -618,8 +618,8 @@ a:focus {
 
 /* info section */
 .footer_bg {
-  background: -webkit-gradient(linear, left top, right top, from(#e3e3e3), to(#e3e3e3));
-  background: linear-gradient(to right, #e3e3e3, #e3e3e3);
+  background: -webkit-gradient(linear, left top, right top, from(#f2f3f4), to(#f2f3f4));
+  background: linear-gradient(to right, #f2f3f4, #f2f3f4);
   padding-top: 150px;
   margin-top: 0px;
 }
@@ -684,10 +684,10 @@ a:focus {
   margin: 25px 0;
 }
 
-.info_section .social-box img {
+/*.info_section .social-box img {
   width: 35px;
   margin-right: 5px;
-}
+}*/
 
 .form_container form {
   display: -webkit-box;
