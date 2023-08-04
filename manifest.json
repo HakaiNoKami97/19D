@@ -1,0 +1,9 @@
+{
+    "name": "19D",
+    "short_name": "19D",
+    "theme_color": "#1959b1",
+    "background_color": "#ffffff",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "/https://somos19d.com/"
+  }
