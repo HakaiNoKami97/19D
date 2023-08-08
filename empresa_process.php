@@ -11,10 +11,31 @@ if ($conn->connect_error) {
 }
 
 if (isset($_POST['save'])) {
-    // Ejemplo: INSERT INTO empresa (nombre, mision, vision, descripcion) VALUES (...);
+    $mision = $_POST['mision'];
+    $vision = $_POST['vision'];
+    $sql = "INSERT INTO empresa (misión, visión, descripción)
+            VALUES ('$mision', '$vision')";
 
+    if ($conn->query($sql) === TRUE) {
+        echo "Registro de empresa exitoso";
+    } else {
+        echo "Error al registrar empresa: " . $conn->error;
+    }
 } elseif (isset($_POST['update'])) {
-    // Ejemplo: UPDATE empresa SET nombre = ..., mision = ..., vision = ..., descripcion = ... WHERE id = ...;
+    $mision = $_POST['mision'];
+    $vision = $_POST['vision'];
+
+    // Realizar la actualización en la base de datos
+    $sql = "UPDATE empresa SET
+            misión = '$mision',
+            visión = '$vision',
+            WHERE id = $edit_id";
+
+    if ($conn->query($sql) === TRUE) {
+        echo "Actualización de empresa exitosa";
+    } else {
+        echo "Error al actualizar empresa: " . $conn->error;
+    }
 }
 
 header("Location: empresa_form.php");

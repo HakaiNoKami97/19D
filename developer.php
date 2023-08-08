@@ -82,7 +82,7 @@
                             SILVIA
                         </h4>
                         <p>
-                        Es un SaaS (Software as a Services) tipo Human Capital Managemen (HCM) que ofrece soluciones para gestionar el talento humano de las empresas a través de diferentes módulos y reportes.
+                        Es un SaaS (Software as a Services) tipo Human Capital Management (HCM) que ofrece soluciones para gestionar el talento humano de las empresas a través de diferentes módulos y reportes.
                         </p>
                     </div>
                 </div>
@@ -95,7 +95,7 @@
                             SALOME
                         </h4>
                         <p>
-                            Salomé fue una princesa idumea, hija de Herodes Filipo I y Herodías, e hijastra de Herodes Antipas, relacionada con la muerte de Juan el Bautista.
+                        Es un SaaS (Software as a Services) que facilita la administración del SGSST y cumplimiento de estándares con base en la Resolución 312 de 2019.
                         </p>
                     </div>
                 </div>
@@ -121,7 +121,7 @@
                             MARISOL
                         </h4>
                         <p>
-                            Josefa Flores González, conocida artísticamente como Marisol o Pepa Flores, es una actriz y cantante española. ​​Como niña prodigio, tuvo un gran éxito en la década de los sesenta en España. El estreno de su primera película Un rayo de luz en 1960 la convirtió en una figura paradigmática y un fenómeno social.​
+                        Es un SaaS (Software as a Services) que contribuye con la gestión del sistema de calidad basado en la ISO 9001:2015
                         </p>
                     </div>
                 </div>
@@ -131,10 +131,10 @@
                     </div>
                     <div class="detail-box">
                         <h4>
-                            ROSABLANCA
+                            BLANCA
                         </h4>
                         <p>
-                            La Rosa Blanca (en alemán: Weiße Rose) fue un grupo organizado en la Alemania nazi durante la Segunda Guerra Mundial, que abogaba por la resistencia no-violenta contra el régimen, liderado por cinco estudiantes y un profesor de la Universidad de Múnich: Willi Graf, Kurt Huber, Christoph Probst, Alexander Schmorell, Hans Scholl y Sophie Scholl. El grupo llevó a cabo una campaña de panfletos anónimos y grafiti que invitaba a una oposición activa al régimen nazi. Sus actividades iniciaron en Múnich en junio de 1942 y terminaron el 18 de febrero de 1943 con el arresto de los miembros principales del grupo por parte de la Gestapo.
+                        Es un SaaS (Software as a Services) tipo ERP desarrollado para empresas del sector palmicultor.
                         </p>
                     </div>
                 </div>
