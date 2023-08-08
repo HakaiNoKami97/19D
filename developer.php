@@ -82,7 +82,7 @@
                             SILVIA
                         </h4>
                         <p>
-                            Silvia es un municipio colombiano ubicado en el departamento de Cauca. Se sitúa sobre un valle interandino en la cordillera central de Colombia. Está conformado por seis resguardos indígenas: Ambaló, Guambía, Kisgo, Pitayó, Quichaya y Tumburao.
+                        Es un SaaS (Software as a Services) tipo Human Capital Managemen (HCM) que ofrece soluciones para gestionar el talento humano de las empresas a través de diferentes módulos y reportes.
                         </p>
                     </div>
                 </div>

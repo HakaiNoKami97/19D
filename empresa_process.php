@@ -1,0 +1,24 @@
+<?php
+$servername = "localhost:3306";
+$username = "root";
+$password = "";
+$dbname = "administrador";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+if ($conn->connect_error) {
+    die("Error al conectarse a la base de datos: " . $conn->connect_error);
+}
+
+if (isset($_POST['save'])) {
+    // Ejemplo: INSERT INTO empresa (nombre, mision, vision, descripcion) VALUES (...);
+
+} elseif (isset($_POST['update'])) {
+    // Ejemplo: UPDATE empresa SET nombre = ..., mision = ..., vision = ..., descripcion = ... WHERE id = ...;
+}
+
+header("Location: empresa_form.php");
+exit();
+
+$conn->close();
+?>
