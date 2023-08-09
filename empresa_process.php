@@ -11,9 +11,10 @@ if ($conn->connect_error) {
 }
 
 if (isset($_POST['save'])) {
+    // Insertar nuevo registro
     $mision = $_POST['mision'];
     $vision = $_POST['vision'];
-    $sql = "INSERT INTO empresa (misión, visión, descripción)
+    $sql = "INSERT INTO empresa (misión, visión)
             VALUES ('$mision', '$vision')";
 
     if ($conn->query($sql) === TRUE) {
@@ -22,19 +23,31 @@ if (isset($_POST['save'])) {
         echo "Error al registrar empresa: " . $conn->error;
     }
 } elseif (isset($_POST['update'])) {
+    // Actualizar registro existente
+    $edit_id = $_POST['edit_id'];
     $mision = $_POST['mision'];
     $vision = $_POST['vision'];
 
-    // Realizar la actualización en la base de datos
     $sql = "UPDATE empresa SET
             misión = '$mision',
-            visión = '$vision',
+            visión = '$vision'
             WHERE id = $edit_id";
 
     if ($conn->query($sql) === TRUE) {
         echo "Actualización de empresa exitosa";
     } else {
         echo "Error al actualizar empresa: " . $conn->error;
+    }
+} elseif (isset($_GET['delete_id'])) {
+    $delete_id = $_GET['delete_id'];
+
+    // Realizar la eliminación en la base de datos
+    $sql = "DELETE FROM empresa WHERE id = $delete_id";
+
+    if ($conn->query($sql) === TRUE) {
+        echo "Registro eliminado exitosamente";
+    } else {
+        echo "Error al eliminar registro: " . $conn->error;
     }
 }
 
