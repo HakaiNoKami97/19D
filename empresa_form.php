@@ -10,7 +10,6 @@
     <!-- Formulario para agregar/editar registros -->
     <form action="empresa_process.php" method="post">
         <?php
-        // Si estamos editando, cargar datos para edición
         if (isset($_GET['edit_id'])) {
             $edit_id = $_GET['edit_id'];
             $servername = "localhost:3306";
@@ -18,14 +17,12 @@
             $password = "";
             $dbname = "administrador";
 
-            // Crear una conexión a la base de datos
             $conn = new mysqli($servername, $username, $password, $dbname);
 
             if ($conn->connect_error) {
                 die("Error al conectarse a la base de datos: " . $conn->connect_error);
             }
 
-            // Realizar consulta a la tabla "empresa" para obtener los datos del ID a editar
             $sql = "SELECT * FROM empresa WHERE id = $edit_id";
             $result = $conn->query($sql);
 
@@ -58,13 +55,11 @@
         </tr>
         
         <?php
-        // Datos de conexión a la base de datos
         $servername = "localhost:3306";
         $username = "root";
         $password = "";
         $dbname = "administrador";
 
-        // Crear una conexión a la base de datos
         $conn = new mysqli($servername, $username, $password, $dbname);
 
         if ($conn->connect_error) {
