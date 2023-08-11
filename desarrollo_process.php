@@ -22,13 +22,13 @@ if (isset($_POST['save'])) {
     move_uploaded_file($imagen_tmp, $imagen_ruta);
 
     // Insertar datos en la base de datos
-    $sql = "INSERT INTO servicio (nombre, descripción, imagen, fecha)
+    $sql = "INSERT INTO desarrollo (nombre, descripción, imagen, fecha)
             VALUES ('$nombre', '$descripcion', '$imagen_ruta', '$fecha_registro')";
 
     if ($conn->query($sql) === TRUE) {
-        echo "Registro de servicio exitoso";
+        echo "Registro de desarrollo exitoso";
     } else {
-        echo "Error al registrar servicio: " . $conn->error;
+        echo "Error al registrar desarrollo: " . $conn->error;
     }
 }  elseif (isset($_POST['update'])) {
     $edit_id = $_POST['edit_id'];
@@ -46,31 +46,31 @@ if (isset($_POST['save'])) {
         // Subir nueva imagen al servidor
         move_uploaded_file($imagen_tmp, $imagen_ruta);
 
-        // Actualizar detalles del servicio en la base de datos, incluyendo la imagen
-        $sql = "UPDATE servicio SET
+        // Actualizar detalles del desarrollo en la base de datos, incluyendo la imagen
+        $sql = "UPDATE desarrollo SET
                 nombre = '$nombre',
                 descripción = '$descripcion',
                 imagen = '$imagen_ruta'
                 WHERE id = $edit_id";
 
     } else {
-        // Actualizar detalles del servicio en la base de datos sin cambiar la imagen
-        $sql = "UPDATE servicio SET
+        // Actualizar detalles del desarrollo en la base de datos sin cambiar la imagen
+        $sql = "UPDATE desarrollo SET
                 nombre = '$nombre',
                 descripción = '$descripcion'
                 WHERE id = $edit_id";
     }
 
     if ($conn->query($sql) === TRUE) {
-        echo "Actualización de servicio exitosa";
+        echo "Actualización de desarrollo exitosa";
     } else {
-        echo "Error al actualizar servicio: " . $conn->error;
+        echo "Error al actualizar desarrollo: " . $conn->error;
     }
 } elseif (isset($_GET['delete_id'])) {
     $delete_id = $_GET['delete_id'];
 
     // Realizar la eliminación en la base de datos
-    $sql = "DELETE FROM servicio WHERE id = $delete_id";
+    $sql = "DELETE FROM desarrollo WHERE id = $delete_id";
 
     if ($conn->query($sql) === TRUE) {
         echo "Registro eliminado exitosamente";
@@ -79,7 +79,7 @@ if (isset($_POST['save'])) {
     }
 }
 
-header("Location: servicio_form.php");
+header("Location: desarrollo_form.php");
 exit();
 
 $conn->close();
