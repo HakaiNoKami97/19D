@@ -72,16 +72,19 @@ a:active {
 
 #slide1 {
   background: url(../images/about-us-page.png) center/cover, rgba(99, 143, 225, 0.7);
+  background-size: 100% 100%;
   color: #00324b;
 }
 
 #slide2 {
   background: url(../images/INVERTIR-EN-SERVICIO-AL-CLIENTE-1600x800.jpg) center/cover, rgba(61, 107, 193, 0.7);
+  background-size: 100% 100%;
   color: #00324b;
 }
 
 #slide3 {
   background: url(../images/20220422_62626d17c3766.jpg) center/cover, rgba(31, 75, 157, 0.7);
+  background-size: 100% 100%;
   color: #00324b;
 }
 nav {

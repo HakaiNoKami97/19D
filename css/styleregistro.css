@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-image: url(../images/fondologin.jpg);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: #f4f4f4;
     margin: 0;
