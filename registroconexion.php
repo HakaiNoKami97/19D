@@ -39,8 +39,8 @@ if ($conn->query($sql) === TRUE) {
     $message = "Gracias por registrarte. Tu cuenta ha sido creada.";
     $headers = "From: guillermo971013@hotmail.com";
     mail($to, $subject, $message, $headers);
-    
-    echo "Registro exitoso";
+    header("Location: login.php");
+    exit();
 } else {
     echo "Error al registrar: " . $conn->error;
 }

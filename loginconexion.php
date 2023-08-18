@@ -20,7 +20,8 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     $row = $result->fetch_assoc();
     if (password_verify($contraseña, $row["contraseña"])) {
-        echo "Inicio de sesión exitoso";
+        header("Location: menu_inicio.php");
+        exit();
     } else {
         echo "Contraseña incorrecta";
     }
