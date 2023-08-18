@@ -8,9 +8,9 @@ ul.slider {
   position:relative; /*Necesitamos que el ul sea relativo*/
 }
 ul.slider li {
-  opacity: 0; /*Ocultamos todos los <li>*/
+  opacity: 0;
   transition: opacity .5s;
-  position: absolute; /*Posicionamos en absoluto los <li>*/
+  position: absolute;
   left: 0px;
   top: 0px;
   margin:50px;
@@ -58,7 +58,7 @@ ul.slider li {
 }
 
 a {
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -67,21 +67,21 @@ a:hover {
 }
 
 a:active {
-  color: rgb(128, 128, 128);
+  color: rgb(255, 255, 255);
 }
 
 #slide1 {
-  background-color: #638FE1;
-  color: #fff;
+  background: url(../images/about-us-page.png) center/cover, rgba(99, 143, 225, 0.7);
+  color: #00324b;
 }
 
 #slide2 {
-  background-color: #3D6BC1;
+  background: url(../images/INVERTIR-EN-SERVICIO-AL-CLIENTE-1600x800.jpg) center/cover, rgba(61, 107, 193, 0.7);
   color: #00324b;
 }
 
 #slide3 {
-  background-color: #1F4B9D;
+  background: url(../images/20220422_62626d17c3766.jpg) center/cover, rgba(31, 75, 157, 0.7);
   color: #00324b;
 }
 nav {
