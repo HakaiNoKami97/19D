@@ -55,7 +55,7 @@
 </head>
 
 <body class="sub_page">
-    <div class="hero_area">
+<div class="hero_area">
         <!-- header section strats -->
         <?php 
             require_once('php/includes/menu.php');
@@ -63,12 +63,12 @@
         <!-- end header section -->
     </div>
 
-    <!-- welcome section -->
+    <!-- Sección de misión -->
     <section class="welcome_section layout_padding">
         <div class="container">
             <div class="custom_heading-container">
                 <h2>
-                    Nuestra Mision:
+                    Nuestra Misión:
                 </h2>
             </div>
             <div class="layout_padding2">
@@ -77,16 +77,35 @@
                 </div>
                 <div class="detail-box">
                     <p>
-                        Desarrollamos software de manera innovadora y oportuna a empresas.
+                        <?php
+                        $servername = "localhost:3306";
+                        $username = "root";
+                        $password = "";
+                        $dbname = "administrador";
+
+                        $conn = new mysqli($servername, $username, $password, $dbname);
+
+                        if ($conn->connect_error) {
+                            die("Error al conectarse a la base de datos: " . $conn->connect_error);
+                        }
+
+                        $sql = "SELECT * FROM empresa WHERE id = id"; 
+                        $result = $conn->query($sql);
+
+                        if ($result->num_rows > 0) {
+                            $row = $result->fetch_assoc();
+                            echo $row['misión'];
+                        }
+
+                        $conn->close();
+                        ?>
                     </p>
                 </div>
             </div>
-
         </div>
     </section>
-    <!-- end welcome section -->
 
-    <!-- welcome section -->
+    <!-- Sección de visión -->
     <section class="welcome_section layout_padding">
         <div class="container">
             <div class="custom_heading-container">
@@ -100,11 +119,31 @@
                 </div>
                 <div class="detail-box">
                     <p>
-                        En el 2025 seremos la empresa líder en el desarrollo de software en el magdalena medio.
+                        <?php
+                        $servername = "localhost:3306";
+                        $username = "root";
+                        $password = "";
+                        $dbname = "administrador";
+
+                        $conn = new mysqli($servername, $username, $password, $dbname);
+
+                        if ($conn->connect_error) {
+                            die("Error al conectarse a la base de datos: " . $conn->connect_error);
+                        }
+
+                        $sql = "SELECT * FROM empresa WHERE id = id"; 
+                        $result = $conn->query($sql);
+
+                        if ($result->num_rows > 0) {
+                            $row = $result->fetch_assoc();
+                            echo $row['visión'];
+                        }
+
+                        $conn->close();
+                        ?>
                     </p>
                 </div>
             </div>
-
         </div>
     </section>
     <!-- end welcome section -->

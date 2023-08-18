@@ -28,8 +28,10 @@
 
             if ($result->num_rows > 0) {
                 $row = $result->fetch_assoc();
-                echo 'Misión: <textarea name="mision" rows="3" required>' . $row['misión'] . '</textarea><br>';
-                echo 'Visión: <textarea name="vision" rows="3" required>' . $row['visión'] . '</textarea><br>';
+                $misionValue = $row['misión'];
+                $visionValue = $row['visión'];
+                echo 'Misión: <textarea name="mision" rows="3" required>' . $misionValue . '</textarea><br>';
+                echo 'Visión: <textarea name="vision" rows="3" required>' . $visionValue . '</textarea><br>';
                 echo '<input type="hidden" name="edit_id" value="' . $edit_id . '">';
                 echo '<input type="submit" name="update" value="Actualizar">';
             } else {
