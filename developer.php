@@ -63,9 +63,9 @@
         <!-- end header section -->
     </div>
 
-    <!-- service section -->
+<!-- service section -->
 
-    <section class="service_section">
+<section class="service_section">
         <div class="container">
             <div class="custom_heading-container">
                 <h2>
@@ -73,71 +73,41 @@
                 </h2>
             </div>
             <div class="service_container layout_padding2">
-                <div class="service_box">
-                    <div class="img-box">
-                        <img src="images/silvia.jpg" alt="" />
-                    </div>
-                    <div class="detail-box">
-                        <h4>
-                            SILVIA
-                        </h4>
-                        <p>
-                        Es un SaaS (Software as a Services) tipo Human Capital Management (HCM) que ofrece soluciones para gestionar el talento humano de las empresas a través de diferentes módulos y reportes.
-                        </p>
-                    </div>
-                </div>
-                <div class="service_box">
-                    <div class="img-box">
-                        <img src="images/salome.jpg" alt="" />
-                    </div>
-                    <div class="detail-box">
-                        <h4>
-                            SALOME
-                        </h4>
-                        <p>
-                        Es un SaaS (Software as a Services) que facilita la administración del SGSST y cumplimiento de estándares con base en la Resolución 312 de 2019.
-                        </p>
-                    </div>
-                </div>
-                <div class="service_box">
-                    <div class="img-box">
-                        <img src="images/bernardino.jpg" alt="" />
-                    </div>
-                    <div class="detail-box">
-                        <h4>
-                            BERNARDINO
-                        </h4>
-                        <p>
-                            Bernardo Rocha de Rezende o simplemente Bernardinho es un exjugador profesional y entrenador de voleibol brasileño, actual seleccionador de la Selección masculina de voleibol de Brasil y del Sesc/Río de Janeiro Vôlei Clube femenino.​
-                        </p>
-                    </div>
-                </div>
-                <div class="service_box">
-                    <div class="img-box">
-                        <img src="images/marisol.jpg" alt="" />
-                    </div>
-                    <div class="detail-box">
-                        <h4>
-                            MARISOL
-                        </h4>
-                        <p>
-                        Es un SaaS (Software as a Services) que contribuye con la gestión del sistema de calidad basado en la ISO 9001:2015
-                        </p>
-                    </div>
-                </div>
-                <div class="service_box">
-                    <div class="img-box">
-                        <img src="images/rosablanca.jpg" alt="" />
-                    </div>
-                    <div class="detail-box">
-                        <h4>
-                            BLANCA
-                        </h4>
-                        <p>
-                        Es un SaaS (Software as a Services) tipo ERP desarrollado para empresas del sector palmicultor.
-                        </p>
-                    </div>
-                </div>
+
+                <?php
+                $servername = "localhost:3306";
+                $username = "root";
+                $password = "";
+                $dbname = "administrador";
+                $conn = new mysqli($servername, $username, $password, $dbname);
+
+                if ($conn->connect_error) {
+                    die("Error al conectarse a la base de datos: " . $conn->connect_error);
+                }
+
+                $sql = "SELECT * FROM desarrollo WHERE id = id";
+                $result = $conn->query($sql);
+
+                if ($result->num_rows > 0) {
+                    while($row = $result->fetch_assoc()){
+                        echo '<div class="service_box">';
+                        echo '<div class="img-box">';
+                        echo '<img src="' . $row['imagen'] . '" alt="" />';
+                        echo '</div>';
+                        echo '<div class="detail-box">';
+                        echo '<h4>' . $row['nombre'] . '</h4>';
+                        echo '<p>' . $row['descripción'] . '</p>';
+                        echo '</div>';
+                        echo '</div>';
+                    }                    
+                    
+                } else {
+                    echo 'No se encontraron detalles de desarrollo.';
+                }
+
+                $conn->close();
+                ?>
+
             </div>
         </div>
     </section>

@@ -63,9 +63,9 @@
         <!-- end header section -->
     </div>
 
-    <!-- service section -->
+<!-- service section -->
 
-    <section class="service_section">
+<section class="service_section">
         <div class="container">
             <div class="custom_heading-container">
                 <h2>
@@ -73,58 +73,40 @@
                 </h2>
             </div>
             <div class="service_container layout_padding2">
-                <div class="service_box">
-                    <div class="img-box">
-                        <img src="images/chatbot.jpg" alt="" />
-                    </div>
-                    <div class="detail-box">
-                        <h4>
-                            CHAT BOT
-                        </h4>
-                        <p>
-                            Nuestro chat bot ofrece la oportunidad de conectar con más clientes con una herramienta automatizada y fácil de usar para el usuario final.
-                        </p>
-                    </div>
-                </div>
-                <div class="service_box">
-                    <div class="img-box">
-                        <img src="images/gestordocumental.jpg" alt="" />
-                    </div>
-                    <div class="detail-box">
-                        <h4>
-                            Gestor documental
-                        </h4>
-                        <p>
-                            Reduce hasta un 70% las tareas manuales de creación, organización, intercambio y firma de documentos con un Gestor Documental software.
-                        </p>
-                    </div>
-                </div>
-                <div class="service_box">
-                    <div class="img-box">
-                        <img src="images/evaluacionesdedesempeñotrabajadoresyproveedores.jpg" alt="" />
-                    </div>
-                    <div class="detail-box">
-                        <h4>
-                            Evaluaciones de desempeño trabajadores y proveedores
-                        </h4>
-                        <p>
-                            Siempre podrás contar con nuestra ayuda para crear un lugar de trabajo más feliz. Agéndate. Puedes configurar distintos tipos de formularios para cada tipo de evaluación.
-                        </p>
-                    </div>
-                </div>
-                <div class="service_box">
-                    <div class="img-box">
-                        <img src="images/desarrolloeintegraciónapiwhatsapp.jpg" alt="" />
-                    </div>
-                    <div class="detail-box">
-                        <h4>
-                            Desarrollo e integración API Whatsapp
-                        </h4>
-                        <p>
-                            Chatbots personalizados para enviar mensajes automáticos. ¡Descubre API Oficial Whatsapp! Amplía tu alcance y fortalece la seguridad en canales digitales con Whatsapp API Oficial.
-                        </p>
-                    </div>
-                </div>
+
+                <?php
+                $servername = "localhost:3306";
+                $username = "root";
+                $password = "";
+                $dbname = "administrador";
+                $conn = new mysqli($servername, $username, $password, $dbname);
+
+                if ($conn->connect_error) {
+                    die("Error al conectarse a la base de datos: " . $conn->connect_error);
+                }
+
+                $sql = "SELECT * FROM servicio WHERE id = id";
+                $result = $conn->query($sql);
+
+                if ($result->num_rows > 0) {
+                    while($row = $result->fetch_assoc()){
+                        echo '<div class="service_box">';
+                        echo '<div class="img-box">';
+                        echo '<img src="' . $row['imagen'] . '" alt="" />';
+                        echo '</div>';
+                        echo '<div class="detail-box">';
+                        echo '<h4>' . $row['nombre'] . '</h4>';
+                        echo '<p>' . $row['descripción'] . '</p>';
+                        echo '</div>';
+                        echo '</div>';
+                    }                    
+                    
+                } else {
+                    echo 'No se encontraron detalles de desarrollo.';
+                }
+
+                $conn->close();
+                ?>
             </div>
         </div>
     </section>
