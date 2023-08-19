@@ -63,8 +63,8 @@
         <!-- end header section -->
     </div>
 
-    <!-- Sección de misión -->
-    <section class="welcome_section layout_padding">
+  <!-- Sección de misión -->
+    <section class="welcome_section layout_padding" id="mision-section">
         <div class="container">
             <div class="custom_heading-container">
                 <h2>
@@ -76,29 +76,8 @@
                     <img src="images/welcome.png" alt="" />
                 </div>
                 <div class="detail-box">
-                    <p>
-                        <?php
-                        $servername = "localhost:3306";
-                        $username = "root";
-                        $password = "";
-                        $dbname = "administrador";
-
-                        $conn = new mysqli($servername, $username, $password, $dbname);
-
-                        if ($conn->connect_error) {
-                            die("Error al conectarse a la base de datos: " . $conn->connect_error);
-                        }
-
-                        $sql = "SELECT * FROM empresa WHERE id = id"; 
-                        $result = $conn->query($sql);
-
-                        if ($result->num_rows > 0) {
-                            $row = $result->fetch_assoc();
-                            echo $row['misión'];
-                        }
-
-                        $conn->close();
-                        ?>
+                    <p id="mision-content">
+                        Cargando misión...
                     </p>
                 </div>
             </div>
@@ -106,7 +85,7 @@
     </section>
 
     <!-- Sección de visión -->
-    <section class="welcome_section layout_padding">
+    <section class="welcome_section layout_padding" id="vision-section">
         <div class="container">
             <div class="custom_heading-container">
                 <h2>
@@ -118,40 +97,36 @@
                     <img src="images/welcome.png" alt="" />
                 </div>
                 <div class="detail-box">
-                    <p>
-                        <?php
-                        $servername = "localhost:3306";
-                        $username = "root";
-                        $password = "";
-                        $dbname = "administrador";
-
-                        $conn = new mysqli($servername, $username, $password, $dbname);
-
-                        if ($conn->connect_error) {
-                            die("Error al conectarse a la base de datos: " . $conn->connect_error);
-                        }
-
-                        $sql = "SELECT * FROM empresa WHERE id = id"; 
-                        $result = $conn->query($sql);
-
-                        if ($result->num_rows > 0) {
-                            $row = $result->fetch_assoc();
-                            echo $row['visión'];
-                        }
-
-                        $conn->close();
-                        ?>
+                    <p id="vision-content">
+                        Cargando visión...
                     </p>
                 </div>
             </div>
         </div>
     </section>
-    <!-- end welcome section -->
-    <?php 
-        require_once('php/includes/footer.php');
-    ?>
+
+    <!-- ... (tu código de pie de página) ... -->
+
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Cargar misión y visión utilizando AJAX
+            $.ajax({
+                url: 'get_mision_vision.php', // Archivo PHP que obtiene los datos desde la base de datos
+                type: 'GET',
+                dataType: 'json',
+                success: function (data) {
+                    $('#mision-content').text(data.mision);
+                    $('#vision-content').text(data.vision);
+                },
+                error: function () {
+                    $('#mision-content').text('Error al cargar misión.');
+                    $('#vision-content').text('Error al cargar visión.');
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

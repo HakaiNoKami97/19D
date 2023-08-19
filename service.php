@@ -72,41 +72,8 @@
                     Qué soluciones ofrecemos?
                 </h2>
             </div>
-            <div class="service_container layout_padding2">
-
-                <?php
-                $servername = "localhost:3306";
-                $username = "root";
-                $password = "";
-                $dbname = "administrador";
-                $conn = new mysqli($servername, $username, $password, $dbname);
-
-                if ($conn->connect_error) {
-                    die("Error al conectarse a la base de datos: " . $conn->connect_error);
-                }
-
-                $sql = "SELECT * FROM servicio WHERE id = id";
-                $result = $conn->query($sql);
-
-                if ($result->num_rows > 0) {
-                    while($row = $result->fetch_assoc()){
-                        echo '<div class="service_box">';
-                        echo '<div class="img-box">';
-                        echo '<img src="' . $row['imagen'] . '" alt="" />';
-                        echo '</div>';
-                        echo '<div class="detail-box">';
-                        echo '<h4>' . $row['nombre'] . '</h4>';
-                        echo '<p>' . $row['descripción'] . '</p>';
-                        echo '</div>';
-                        echo '</div>';
-                    }                    
-                    
-                } else {
-                    echo 'No se encontraron detalles de desarrollo.';
-                }
-
-                $conn->close();
-                ?>
+            <div class="service_container layout_padding2" id="servicesContainer">
+                <!-- Los detalles de los servicios se cargarán aquí dinámicamente -->
             </div>
         </div>
     </section>
@@ -117,6 +84,40 @@
     ?>
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $.ajax({
+                url: 'get_services.php', // Ruta al archivo PHP que obtiene los servicios
+                method: 'GET',
+                dataType: 'json',
+                success: function(data) {
+                    var servicesContainer = $('#servicesContainer');
+                    
+                    if (data.length > 0) {
+                        $.each(data, function(index, service) {
+                            var serviceBox = $('<div class="service_box">');
+                            var imgBox = $('<div class="img-box">');
+                            var img = $('<img>').attr('src', service.imagen).attr('alt', '');
+                            var detailBox = $('<div class="detail-box">');
+                            var h4 = $('<h4>').text(service.nombre);
+                            var p = $('<p>').text(service.descripcion);
+                            
+                            imgBox.append(img);
+                            detailBox.append(h4).append(p);
+                            serviceBox.append(imgBox).append(detailBox);
+                            servicesContainer.append(serviceBox);
+                        });
+                    } else {
+                        servicesContainer.html('No se encontraron detalles de desarrollo.');
+                    }
+                },
+                error: function() {
+                    var servicesContainer = $('#servicesContainer');
+                    servicesContainer.html('Error al cargar los servicios.');
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
