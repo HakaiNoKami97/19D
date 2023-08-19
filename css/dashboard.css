@@ -1,0 +1,41 @@
+/* dashboard.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.dashboard {
+    display: flex;
+    min-height: 100vh;
+}
+
+ul{
+    width: 100px;
+}
+
+.sidebar {
+    width: 100px;
+    background-color: #333;
+    color: #fff;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 10px;
+    text-align: center;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
