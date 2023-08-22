@@ -1,3 +1,14 @@
+<?php
+// Inicia o reanuda la sesión
+session_start();
+
+// Verifica si el usuario ha iniciado sesión
+if (!isset($_SESSION['correo'])) {
+    header("Location: login.php");
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -5,9 +16,6 @@
         <title>INICIO 19D</title>
     </head>
     <body>
-      <div class="logout-button">
-        <a href="logout.php">Cerrar Sesión</a>
-      </div>
       <ul class="slider">
         <li id="slide1" class="nav-item">
           <a class="nav-link" href="empresa_form.php">NOSOTROS</a>
@@ -24,6 +32,7 @@
           <li><a href="#slide1">Nosotros</a></li>
           <li><a href="#slide2">Servicios</a></li>
           <li><a href="#slide3">Desarrollos</a></li>
+          <li><a href="logout.php">Cerrar Sesión</a></li>
         </ul>
       </nav>
     </body>

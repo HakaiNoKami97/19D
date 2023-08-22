@@ -1,3 +1,14 @@
+<?php
+// Inicia o reanuda la sesión
+session_start();
+
+// Verifica si el usuario ha iniciado sesión
+if (!isset($_SESSION['correo'])) {
+    header("Location: login.php");
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,6 +24,7 @@
                 <li><a href="empresa_form.php">Nosotros</a></li>
                 <li><a href="servicio_form.php">Registrar Servicio</a></li>                
                 <li><a href="desarrollo_form.php">Registrar Desarrollo</a></li>
+                <li><a href="logout.php">Cerrar Sesión</a></li>
             </ul>
         </div>
     <div class="content">
