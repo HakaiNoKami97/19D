@@ -17,6 +17,17 @@ if (isset($_POST['save'])) {
     $imagen_tmp = ($_FILES['imagen']['tmp_name']);
     $fecha_registro = date("Y-m-d H:i:s"); // Fecha y hora actual
 
+    if (empty($nombre) || empty($descripcion)) {
+        echo 'Por favor, completa todos los campos antes de enviar el formulario.';
+        exit();
+    }
+
+    // Verificar si los campos contienen solo espacios en blanco
+    if (empty($nombre) || empty($descripcion)) {
+        echo 'Por favor, completa todos los campos antes de enviar el formulario.';
+        exit();
+    }
+
     // Subir imagen al servidor
     $imagen_ruta = "uploads/" . $imagen_nombre;
     move_uploaded_file($imagen_tmp, $imagen_ruta);
@@ -34,6 +45,17 @@ if (isset($_POST['save'])) {
     $edit_id = $_POST['edit_id'];
     $nombre = trim($_POST['nombre']);
     $descripcion = trim($_POST['descripcion']);
+
+    if (empty($nombre) || empty($descripcion)) {
+        echo 'Por favor, completa todos los campos antes de enviar el formulario.';
+        exit();
+    }
+
+    // Verificar si los campos contienen solo espacios en blanco
+    if (empty($nombre) || empty($descripcion)) {
+        echo 'Por favor, completa todos los campos antes de enviar el formulario.';
+        exit();
+    }
 
     // Verificar si se cargó una nueva imagen
     if ($_FILES['imagen']['error'] === UPLOAD_ERR_OK) {
