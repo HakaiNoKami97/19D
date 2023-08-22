@@ -50,3 +50,12 @@ input[type="submit"] {
     padding: 10px 20px;
     cursor: pointer;
 }
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
