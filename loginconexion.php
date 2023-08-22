@@ -20,6 +20,11 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     $row = $result->fetch_assoc();
     if (password_verify($contraseña, $row["contraseña"])) {
+        // Iniciar la sesión
+        session_start();
+        // Almacenar información de inicio de sesión en variables de sesión
+        $_SESSION['correo'] = $correo;
+        // Redirigir al usuario al menú de inicio
         header("Location: menu_inicio.php");
         exit();
     } else {

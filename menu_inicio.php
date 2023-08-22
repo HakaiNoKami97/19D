@@ -5,6 +5,9 @@
         <title>INICIO 19D</title>
     </head>
     <body>
+      <div class="logout-button">
+        <a href="logout.php">Cerrar Sesión</a>
+      </div>
       <ul class="slider">
         <li id="slide1" class="nav-item">
           <a class="nav-link" href="empresa_form.php">NOSOTROS</a>
