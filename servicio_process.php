@@ -11,8 +11,8 @@ if ($conn->connect_error) {
 }
 
 if (isset($_POST['save'])) {
-    $nombre = $_POST['nombre'];
-    $descripcion = $_POST['descripcion'];
+    $nombre = trim($_POST['nombre']);
+    $descripcion = trim($_POST['descripcion']);
     $imagen_nombre = $_FILES['imagen']['name'];
     $imagen_tmp = $_FILES['imagen']['tmp_name'];
     $fecha_registro = date("Y-m-d H:i:s"); // Fecha y hora actual
@@ -32,8 +32,8 @@ if (isset($_POST['save'])) {
     }
 }  elseif (isset($_POST['update'])) {
     $edit_id = $_POST['edit_id'];
-    $nombre = $_POST['nombre'];
-    $descripcion = $_POST['descripcion'];
+    $nombre = trim($_POST['nombre']);
+    $descripcion = trim($_POST['descripcion']);
 
     // Verificar si se cargó una nueva imagen
     if ($_FILES['imagen']['error'] === UPLOAD_ERR_OK) {

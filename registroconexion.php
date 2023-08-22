@@ -4,10 +4,10 @@ $username = "root";
 $password = "";
 $dbname = "administrador";
 
-$cedula = $_POST['id'];
-$correo = $_POST['correo'];
+$cedula = trim($_POST['id']);
+$correo = trim($_POST['correo']);
 $contraseña = $_POST['contraseña'];
-$telefono = $_POST['telefono'];
+$telefono = trim($_POST['telefono']);
 $tipousuarioid = $_POST['tipousuarioid'];
 $fecha = date("Y-m-d H:i:s");
 
@@ -17,6 +17,12 @@ if (empty($cedula) || empty($correo) || empty($contraseña) || empty($telefono))
 }
 if ($tipousuarioid === '0' || empty($tipousuarioid) || $tipousuarioid === null) {
     echo 'Por favor, seleccione un servicio válido.';
+    exit();
+}
+
+// Verificar si los campos contienen solo espacios en blanco
+if (strlen($cedula) === 0 || strlen($correo) === 0 || strlen($telefono) === 0) {
+    echo 'Por favor, completa todos los campos antes de enviar el formulario.';
     exit();
 }
 

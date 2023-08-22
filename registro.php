@@ -20,7 +20,6 @@
             </select><br>
             <input type="submit" value="Registrar">
         </form>
-    </div>
-    
+    </div>    
 </body>
 </html>

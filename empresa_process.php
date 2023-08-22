@@ -10,10 +10,16 @@ if ($conn->connect_error) {
     die("Error al conectarse a la base de datos: " . $conn->connect_error);
 }
 
+// Verificar si ya existe un registro en la tabla "empresa"
+/*$sql_check = "SELECT COUNT(*) AS count FROM empresa";
+$result_check = $conn->query($sql_check);
+$row_check = $result_check->fetch_assoc();
+$empresa_exists = $row_check['count'] > 0;*/
+
 if (isset($_POST['save'])) {
     // Insertar nuevo registro
-    $mision = $_POST['mision'];
-    $vision = $_POST['vision'];
+    $mision = trim($_POST['mision']);
+    $vision = trim($_POST['vision']);
     $sql = "INSERT INTO empresa (misión, visión)
             VALUES ('$mision', '$vision')";
 
@@ -25,8 +31,8 @@ if (isset($_POST['save'])) {
 } elseif (isset($_POST['update'])) {
     // Actualizar registro existente
     $edit_id = $_POST['edit_id'];
-    $mision = $_POST['mision'];
-    $vision = $_POST['vision'];
+    $mision = trim($_POST['mision']);
+    $vision = trim($_POST['vision']);
 
     $sql = "UPDATE empresa SET
             misión = '$mision',
