@@ -20,6 +20,17 @@ if (isset($_POST['save'])) {
     // Insertar nuevo registro
     $mision = trim($_POST['mision']);
     $vision = trim($_POST['vision']);
+
+    if (empty($mision) || empty($vision)) {
+        echo 'Por favor, completa todos los campos antes de enviar el formulario.';
+        exit();
+    }
+
+    // Verificar si los campos contienen solo espacios en blanco
+    if (empty($mision) || empty($vision)) {
+        echo 'Por favor, completa todos los campos antes de enviar el formulario.';
+        exit();
+    }
     $sql = "INSERT INTO empresa (misión, visión)
             VALUES ('$mision', '$vision')";
 
@@ -33,6 +44,17 @@ if (isset($_POST['save'])) {
     $edit_id = $_POST['edit_id'];
     $mision = trim($_POST['mision']);
     $vision = trim($_POST['vision']);
+
+    if (empty($mision) || empty($vision)) {
+        echo 'Por favor, completa todos los campos antes de enviar el formulario.';
+        exit();
+    }
+
+    // Verificar si los campos contienen solo espacios en blanco
+    if (empty($mision) || empty($vision)) {
+        echo 'Por favor, completa todos los campos antes de enviar el formulario.';
+        exit();
+    }
 
     $sql = "UPDATE empresa SET
             misión = '$mision',
