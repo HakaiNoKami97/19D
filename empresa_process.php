@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tu formulario</title>
+    <!-- Incluir las bibliotecas de SweetAlert2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.js"></script>
+</head>
+<body>
+    <!-- Tu contenido HTML aquí -->
 <?php
 $servername = "localhost:3306";
 $username = "root";
@@ -10,49 +20,46 @@ if ($conn->connect_error) {
     die("Error al conectarse a la base de datos: " . $conn->connect_error);
 }
 
-// Verificar si ya existe un registro en la tabla "empresa"
-/*$sql_check = "SELECT COUNT(*) AS count FROM empresa";
-$result_check = $conn->query($sql_check);
-$row_check = $result_check->fetch_assoc();
-$empresa_exists = $row_check['count'] > 0;*/
-
 if (isset($_POST['save'])) {
-    // Insertar nuevo registro
     $mision = trim($_POST['mision']);
     $vision = trim($_POST['vision']);
 
     if (empty($mision) || empty($vision)) {
-        echo 'Por favor, completa todos los campos antes de enviar el formulario.';
+        echo "<script>
+                Swal.fire('Advertencia', 'Por favor, completa todos los campos antes de enviar el formulario.', 'warning').then(function() {
+                    window.location.href = 'empresa_form.php';
+                });
+              </script>";
         exit();
     }
 
-    // Verificar si los campos contienen solo espacios en blanco
-    if (empty($mision) || empty($vision)) {
-        echo 'Por favor, completa todos los campos antes de enviar el formulario.';
-        exit();
-    }
     $sql = "INSERT INTO empresa (misión, visión)
             VALUES ('$mision', '$vision')";
 
     if ($conn->query($sql) === TRUE) {
-        echo "Registro de empresa exitoso";
+        echo "<script>
+                Swal.fire('Éxito', 'Registro de empresa exitoso', 'success').then(function() {
+                    window.location.href = 'empresa_form.php';
+                });
+              </script>";
     } else {
-        echo "Error al registrar empresa: " . $conn->error;
+        echo "<script>
+                Swal.fire('Error', 'Error al registrar empresa: " . $conn->error . "', 'error').then(function() {
+                    window.location.href = 'empresa_form.php';
+                });
+              </script>";
     }
 } elseif (isset($_POST['update'])) {
-    // Actualizar registro existente
     $edit_id = $_POST['edit_id'];
     $mision = trim($_POST['mision']);
     $vision = trim($_POST['vision']);
 
     if (empty($mision) || empty($vision)) {
-        echo 'Por favor, completa todos los campos antes de enviar el formulario.';
-        exit();
-    }
-
-    // Verificar si los campos contienen solo espacios en blanco
-    if (empty($mision) || empty($vision)) {
-        echo 'Por favor, completa todos los campos antes de enviar el formulario.';
+        echo "<script>
+                Swal.fire('Advertencia', 'Por favor, completa todos los campos antes de enviar el formulario.', 'warning').then(function() {
+                    window.location.href = 'empresa_form.php';
+                });
+              </script>";
         exit();
     }
 
@@ -62,25 +69,41 @@ if (isset($_POST['save'])) {
             WHERE id = $edit_id";
 
     if ($conn->query($sql) === TRUE) {
-        echo "Actualización de empresa exitosa";
+        echo "<script>
+                Swal.fire('Éxito', 'Actualización de empresa exitosa', 'success').then(function() {
+                    window.location.href = 'empresa_form.php';
+                });
+              </script>";
     } else {
-        echo "Error al actualizar empresa: " . $conn->error;
+        echo "<script>
+                Swal.fire('Error', 'Error al actualizar empresa: " . $conn->error . "', 'error').then(function() {
+                    window.location.href = 'empresa_form.php';
+                });
+              </script>";
     }
 } elseif (isset($_GET['delete_id'])) {
     $delete_id = $_GET['delete_id'];
 
-    // Realizar la eliminación en la base de datos
     $sql = "DELETE FROM empresa WHERE id = $delete_id";
 
     if ($conn->query($sql) === TRUE) {
-        echo "Registro eliminado exitosamente";
+        echo "<script>
+                Swal.fire('Éxito', 'Registro eliminado exitosamente', 'success').then(function() {
+                    window.location.href = 'empresa_form.php';
+                });
+              </script>";
     } else {
-        echo "Error al eliminar registro: " . $conn->error;
+        echo "<script>
+                Swal.fire('Error', 'Error al eliminar registro: " . $conn->error . "', 'error').then(function() {
+                    window.location.href = 'empresa_form.php';
+                });
+              </script>";
     }
 }
 
+$conn->close();
 header("Location: empresa_form.php");
 exit();
-
-$conn->close();
 ?>
+</body>
+</html>

@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tu formulario</title>
+    <!-- Incluir las bibliotecas de SweetAlert2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.js"></script>
+</head>
+<body>
 <?php
 $servername = "localhost:3306";
 $username = "root";
@@ -25,14 +34,27 @@ if ($result->num_rows > 0) {
         // Almacenar información de inicio de sesión en variables de sesión
         $_SESSION['correo'] = $correo;
         // Redirigir al usuario al menú de inicio
-        header("Location: menu_inicio.php");
-        exit();
+        echo "<script>
+                Swal.fire('Éxito', 'Inicio de sesión exitoso', 'success').then(function() {
+                    window.location.href = 'menu_inicio.php';
+                });
+              </script>";
     } else {
-        echo "Contraseña incorrecta";
+        echo "<script>
+                Swal.fire('Error', 'Contraseña incorrecta', 'error').then(function() {
+                    window.location.href = 'login.php';
+                });
+              </script>";
     }
 } else {
-    echo "Usuario no registrado. <a href='registro.php'>Registrarse</a>";
+    echo "<script>
+            Swal.fire('Advertencia', 'Usuario no registrado. <a href=\'registro.php\'>Registrarse</a>', 'warning').then(function() {
+                window.location.href = 'login.php';
+            });
+          </script>";
 }
 
 $conn->close();
 ?>
+</body>
+</html>

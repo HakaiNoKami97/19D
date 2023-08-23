@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tu formulario</title>
+    <!-- Incluir las bibliotecas de SweetAlert2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.js"></script>
+</head>
+<body>
 <?php
 $servername = "localhost:3306";
 $username = "root";
@@ -18,13 +27,11 @@ if (isset($_POST['save'])) {
     $fecha_registro = date("Y-m-d H:i:s"); // Fecha y hora actual
 
     if (empty($nombre) || empty($descripcion)) {
-        echo 'Por favor, completa todos los campos antes de enviar el formulario.';
-        exit();
-    }
-
-    // Verificar si los campos contienen solo espacios en blanco
-    if (empty($nombre) || empty($descripcion)) {
-        echo 'Por favor, completa todos los campos antes de enviar el formulario.';
+        echo "<script>
+                Swal.fire('Advertencia', 'Por favor, completa todos los campos antes de enviar el formulario.', 'warning').then(function() {
+                    window.location.href = 'servicio_form.php';
+                });
+              </script>";
         exit();
     }
 
@@ -37,9 +44,17 @@ if (isset($_POST['save'])) {
             VALUES ('$nombre', '$descripcion', '$imagen_ruta', '$fecha_registro')";
 
     if ($conn->query($sql) === TRUE) {
-        echo "Registro de servicio exitoso";
+        echo "<script>
+                Swal.fire('Éxito', 'Registro de servicio exitoso', 'success').then(function() {
+                    window.location.href = 'servicio_form.php';
+                });
+              </script>";
     } else {
-        echo "Error al registrar servicio: " . $conn->error;
+        echo "<script>
+                Swal.fire('Error', 'Error al registrar servicio: " . $conn->error . "', 'error').then(function() {
+                    window.location.href = 'servicio_form.php';
+                });
+              </script>";
     }
 }  elseif (isset($_POST['update'])) {
     $edit_id = $_POST['edit_id'];
@@ -47,13 +62,11 @@ if (isset($_POST['save'])) {
     $descripcion = trim($_POST['descripcion']);
 
     if (empty($nombre) || empty($descripcion)) {
-        echo 'Por favor, completa todos los campos antes de enviar el formulario.';
-        exit();
-    }
-
-    // Verificar si los campos contienen solo espacios en blanco
-    if (empty($nombre) || empty($descripcion)) {
-        echo 'Por favor, completa todos los campos antes de enviar el formulario.';
+        echo "<script>
+                Swal.fire('Advertencia', 'Por favor, completa todos los campos antes de enviar el formulario.', 'warning').then(function() {
+                    window.location.href = 'servicio_form.php';
+                });
+              </script>";
         exit();
     }
 
@@ -84,9 +97,17 @@ if (isset($_POST['save'])) {
     }
 
     if ($conn->query($sql) === TRUE) {
-        echo "Actualización de servicio exitosa";
+        echo "<script>
+                Swal.fire('Éxito', 'Actualización de servicio exitosa', 'success').then(function() {
+                    window.location.href = 'servicio_form.php';
+                });
+              </script>";
     } else {
-        echo "Error al actualizar servicio: " . $conn->error;
+        echo "<script>
+                Swal.fire('Error', 'Error al actualizar servicio: " . $conn->error . "', 'error').then(function() {
+                    window.location.href = 'servicio_form.php';
+                });
+              </script>";
     }
 } elseif (isset($_GET['delete_id'])) {
     $delete_id = $_GET['delete_id'];
@@ -95,14 +116,23 @@ if (isset($_POST['save'])) {
     $sql = "DELETE FROM servicio WHERE id = $delete_id";
 
     if ($conn->query($sql) === TRUE) {
-        echo "Registro eliminado exitosamente";
+        echo "<script>
+                Swal.fire('Éxito', 'Registro eliminado exitosamente', 'success').then(function() {
+                    window.location.href = 'servicio_form.php';
+                });
+              </script>";
     } else {
-        echo "Error al eliminar registro: " . $conn->error;
+        echo "<script>
+                Swal.fire('Error', 'Error al eliminar registro: " . $conn->error . "', 'error').then(function() {
+                    window.location.href = 'servicio_form.php';
+                });
+              </script>";
     }
 }
 
+$conn->close();
 header("Location: servicio_form.php");
 exit();
-
-$conn->close();
 ?>
+</body>
+</html>

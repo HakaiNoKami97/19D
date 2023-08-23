@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tu formulario</title>
+    <!-- Incluir las bibliotecas de SweetAlert2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.js"></script>
+</head>
+<body>
 <?php
 $servername = "localhost:3306";
 $username = "root";
@@ -12,17 +21,29 @@ $tipousuarioid = $_POST['tipousuarioid'];
 $fecha = date("Y-m-d H:i:s");
 
 if (empty($cedula) || empty($correo) || empty($contraseña) || empty($telefono)) {
-    echo 'Por favor, completa todos los campos antes de enviar el formulario.';
+    echo "<script>
+            Swal.fire('Advertencia', 'Por favor, completa todos los campos antes de enviar el formulario.', 'warning').then(function() {
+                window.location.href = 'registro.php';
+            });
+          </script>";
     exit();
 }
 if ($tipousuarioid === '0' || empty($tipousuarioid) || $tipousuarioid === null) {
-    echo 'Por favor, seleccione un servicio válido.';
+    echo "<script>
+            Swal.fire('Advertencia', 'Por favor, seleccione un servicio válido.', 'warning').then(function() {
+                window.location.href = 'registro.php';
+            });
+          </script>";
     exit();
 }
 
 // Verificar si los campos contienen solo espacios en blanco
 if (strlen($cedula) === 0 || strlen($correo) === 0 || strlen($telefono) === 0) {
-    echo 'Por favor, completa todos los campos antes de enviar el formulario.';
+    echo "<script>
+            Swal.fire('Advertencia', 'Por favor, completa todos los campos antes de enviar el formulario.', 'warning').then(function() {
+                window.location.href = 'registro.php';
+            });
+          </script>";
     exit();
 }
 
@@ -45,11 +66,20 @@ if ($conn->query($sql) === TRUE) {
     $message = "Gracias por registrarte. Tu cuenta ha sido creada.";
     $headers = "From: guillermo971013@hotmail.com";
     mail($to, $subject, $message, $headers);
-    header("Location: login.php");
-    exit();
+    echo "<script>
+            Swal.fire('Éxito', 'Registro exitoso.', 'success').then(function() {
+                window.location.href = 'login.php';
+            });
+          </script>";
 } else {
-    echo "Error al registrar: " . $conn->error;
+    echo "<script>
+            Swal.fire('Error', 'Error al registrar: " . $conn->error . "', 'error').then(function() {
+                window.location.href = 'registro.php';
+            });
+          </script>";
 }
 
 $conn->close();
 ?>
+</body>
+</html>
