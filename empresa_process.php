@@ -20,6 +20,11 @@ if ($conn->connect_error) {
     die("Error al conectarse a la base de datos: " . $conn->connect_error);
 }
 
+/*$firstRecordQuery = "SELECT COUNT(*) AS count FROM empresa";
+$result = $conn->query($firstRecordQuery);
+$row = $result->fetch_assoc();
+$hasRecords = $row['count'] > 0;*/
+
 if (isset($_POST['save'])) {
     $mision = trim($_POST['mision']);
     $vision = trim($_POST['vision']);
@@ -99,7 +104,16 @@ if (isset($_POST['save'])) {
                 });
               </script>";
     }
-}
+} /*else {
+    if (!$hasRecords) {
+        echo "<script>
+                Swal.fire('Advertencia', 'Debes registrar al menos una vez antes de poder actualizar o eliminar.', 'warning').then(function() {
+                    window.location.href = 'empresa_form.php';
+                });
+              </script>";
+        exit();
+    }
+}*/
 
 $conn->close();
 header("Location: empresa_form.php");
