@@ -10,6 +10,9 @@
 <?php
 require_once 'conexion.php';
 
+$correo = $_POST['correo'];
+$contraseña = $_POST['contraseña'];
+
 $sql = "SELECT * FROM usuario WHERE correo = '$correo'";
 $result = $conn->query($sql);
 
