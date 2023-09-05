@@ -38,7 +38,7 @@
         }
 
         // Subir imagen al servidor
-        $imagen_ruta = "uploads/" . $imagen_nombre;
+        $imagen_ruta = "../uploads/" . $imagen_nombre;
         move_uploaded_file($imagen_tmp, $imagen_ruta);
 
         // Insertar datos en la base de datos
