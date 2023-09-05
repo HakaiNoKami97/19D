@@ -12,7 +12,7 @@ if (!isset($_SESSION['correo'])) {
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="css/menu_inicio.css" rel="stylesheet" />
+        <link href="../css/menu_inicio.css" rel="stylesheet" />
         <title>INICIO 19D</title>
     </head>
     <body>
@@ -32,7 +32,7 @@ if (!isset($_SESSION['correo'])) {
           <li><a href="#slide1">Nosotros</a></li>
           <li><a href="#slide2">Servicios</a></li>
           <li><a href="#slide3">Desarrollos</a></li>
-          <li><a href="logout.php">Cerrar Sesión</a></li>
+          <li><a href="../functions/logout.php">Cerrar Sesión</a></li>
         </ul>
       </nav>
     </body>

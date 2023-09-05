@@ -23,7 +23,7 @@ $fecha = date("Y-m-d H:i:s");
 if (empty($cedula) || empty($correo) || empty($contraseña) || empty($telefono)) {
     echo "<script>
             Swal.fire('Advertencia', 'Por favor, completa todos los campos antes de enviar el formulario.', 'warning').then(function() {
-                window.location.href = 'registro.php';
+                window.location.href = '../panel/registro.php';
             });
           </script>";
     exit();
@@ -31,7 +31,7 @@ if (empty($cedula) || empty($correo) || empty($contraseña) || empty($telefono))
 if ($tipousuarioid === '0' || empty($tipousuarioid) || $tipousuarioid === null) {
     echo "<script>
             Swal.fire('Advertencia', 'Por favor, seleccione un servicio válido.', 'warning').then(function() {
-                window.location.href = 'registro.php';
+                window.location.href = '../panel/registro.php';
             });
           </script>";
     exit();
@@ -41,7 +41,7 @@ if ($tipousuarioid === '0' || empty($tipousuarioid) || $tipousuarioid === null) 
 if (strlen($cedula) === 0 || strlen($correo) === 0 || strlen($telefono) === 0) {
     echo "<script>
             Swal.fire('Advertencia', 'Por favor, completa todos los campos antes de enviar el formulario.', 'warning').then(function() {
-                window.location.href = 'registro.php';
+                window.location.href = '../panel/registro.php';
             });
           </script>";
     exit();
@@ -68,13 +68,13 @@ if ($conn->query($sql) === TRUE) {
     mail($to, $subject, $message, $headers);
     echo "<script>
             Swal.fire('Éxito', 'Registro exitoso.', 'success').then(function() {
-                window.location.href = 'login.php';
+                window.location.href = '../panel/login.php';
             });
           </script>";
 } else {
     echo "<script>
             Swal.fire('Error', 'Error al registrar: " . $conn->error . "', 'error').then(function() {
-                window.location.href = 'registro.php';
+                window.location.href = '../panel/registro.php';
             });
           </script>";
 }

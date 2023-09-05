@@ -36,20 +36,20 @@ if ($result->num_rows > 0) {
         // Redirigir al usuario al menú de inicio
         echo "<script>
                 Swal.fire('Éxito', 'Inicio de sesión exitoso', 'success').then(function() {
-                    window.location.href = 'menu_inicio.php';
+                    window.location.href = '../panel/menu_inicio.php';
                 });
               </script>";
     } else {
         echo "<script>
                 Swal.fire('Error', 'Contraseña incorrecta', 'error').then(function() {
-                    window.location.href = 'login.php';
+                    window.location.href = '../panel/login.php';
                 });
               </script>";
     }
 } else {
     echo "<script>
             Swal.fire('Advertencia', 'Usuario no registrado. <a href=\'registro.php\'>Registrarse</a>', 'warning').then(function() {
-                window.location.href = 'login.php';
+                window.location.href = '../panel/login.php';
             });
           </script>";
 }

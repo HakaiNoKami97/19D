@@ -87,7 +87,7 @@
     <script type="text/javascript">
         $(document).ready(function() {
             $.ajax({
-                url: 'get_services.php', // Ruta al archivo PHP que obtiene los servicios
+                url: 'functions/get_services.php', // Ruta al archivo PHP que obtiene los servicios
                 method: 'GET',
                 dataType: 'json',
                 success: function(data) {

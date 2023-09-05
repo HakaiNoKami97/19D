@@ -29,14 +29,14 @@ if (isset($_POST['save'])) {
     if (empty($nombre) || empty($descripcion)) {
         echo "<script>
                 Swal.fire('Advertencia', 'Por favor, completa todos los campos antes de enviar el formulario.', 'warning').then(function() {
-                    window.location.href = 'servicio_form.php';
+                    window.location.href = '../panel/servicio_form.php';
                 });
               </script>";
         exit();
     }
 
     // Subir imagen al servidor
-    $imagen_ruta = "uploads/" . $imagen_nombre;
+    $imagen_ruta = "../uploads/" . $imagen_nombre;
     move_uploaded_file($imagen_tmp, $imagen_ruta);
 
     // Insertar datos en la base de datos
@@ -46,13 +46,13 @@ if (isset($_POST['save'])) {
     if ($conn->query($sql) === TRUE) {
         echo "<script>
                 Swal.fire('Éxito', 'Registro de servicio exitoso', 'success').then(function() {
-                    window.location.href = 'servicio_form.php';
+                    window.location.href = '../panel/servicio_form.php';
                 });
               </script>";
     } else {
         echo "<script>
                 Swal.fire('Error', 'Error al registrar servicio: " . $conn->error . "', 'error').then(function() {
-                    window.location.href = 'servicio_form.php';
+                    window.location.href = '../panel/servicio_form.php';
                 });
               </script>";
     }
@@ -64,7 +64,7 @@ if (isset($_POST['save'])) {
     if (empty($nombre) || empty($descripcion)) {
         echo "<script>
                 Swal.fire('Advertencia', 'Por favor, completa todos los campos antes de enviar el formulario.', 'warning').then(function() {
-                    window.location.href = 'servicio_form.php';
+                    window.location.href = '../panel/servicio_form.php';
                 });
               </script>";
         exit();
@@ -99,13 +99,13 @@ if (isset($_POST['save'])) {
     if ($conn->query($sql) === TRUE) {
         echo "<script>
                 Swal.fire('Éxito', 'Actualización de servicio exitosa', 'success').then(function() {
-                    window.location.href = 'servicio_form.php';
+                    window.location.href = '../panel/servicio_form.php';
                 });
               </script>";
     } else {
         echo "<script>
                 Swal.fire('Error', 'Error al actualizar servicio: " . $conn->error . "', 'error').then(function() {
-                    window.location.href = 'servicio_form.php';
+                    window.location.href = '../panel/servicio_form.php';
                 });
               </script>";
     }
@@ -118,20 +118,20 @@ if (isset($_POST['save'])) {
     if ($conn->query($sql) === TRUE) {
         echo "<script>
                 Swal.fire('Éxito', 'Registro eliminado exitosamente', 'success').then(function() {
-                    window.location.href = 'servicio_form.php';
+                    window.location.href = '../panel/servicio_form.php';
                 });
               </script>";
     } else {
         echo "<script>
                 Swal.fire('Error', 'Error al eliminar registro: " . $conn->error . "', 'error').then(function() {
-                    window.location.href = 'servicio_form.php';
+                    window.location.href = '../panel/servicio_form.php';
                 });
               </script>";
     }
 }
 
 $conn->close();
-header("Location: servicio_form.php");
+header("Location: ../panel/servicio_form.php");
 exit();
 ?>
 </body>

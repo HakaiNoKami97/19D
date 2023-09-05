@@ -87,7 +87,7 @@
     <script type="text/javascript">
         $(document).ready(function() {
             $.ajax({
-                url: 'get_developer.php', 
+                url: 'functions/get_developer.php', 
                 method: 'GET',
                 dataType: 'json',
                 success: function(data) {

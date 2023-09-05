@@ -113,7 +113,7 @@
         $(document).ready(function () {
             // Cargar misión y visión utilizando AJAX
             $.ajax({
-                url: 'get_mision_vision.php', // Archivo PHP que obtiene los datos desde la base de datos
+                url: 'functions/get_mision_vision.php', // Archivo PHP que obtiene los datos desde la base de datos
                 type: 'GET',
                 dataType: 'json',
                 success: function (data) {

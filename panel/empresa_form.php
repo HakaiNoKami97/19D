@@ -12,8 +12,8 @@ if (!isset($_SESSION['correo'])) {
 <!DOCTYPE html>
 <html>
 <head>
-    <link href="css/styleempresa.css" rel="stylesheet" />
-    <link href="css/dashboard.css" rel="stylesheet" />
+    <link href="../css/styleempresa.css" rel="stylesheet" />
+    <link href="../css/dashboard.css" rel="stylesheet" />
     <title>NOSOTROS 19D</title>
 </head>
 <body>
@@ -24,14 +24,14 @@ if (!isset($_SESSION['correo'])) {
                 <li><a href="empresa_form.php">Nosotros</a></li>
                 <li><a href="servicio_form.php">Registrar Servicio</a></li>                
                 <li><a href="desarrollo_form.php">Registrar Desarrollo</a></li>
-                <li><a href="logout.php">Cerrar Sesión</a></li>
+                <li><a href="../functions/logout.php">Cerrar Sesión</a></li>
             </ul>
         </div>
     <div class="content">
         <h2>NOSOTROS</h2>
         
         <!-- Formulario para agregar/editar registros -->
-        <form action="empresa_process.php" method="post">
+        <form action="../functions/empresa_process.php" method="post">
             <?php
             if (isset($_GET['edit_id'])) {
                 $edit_id = $_GET['edit_id'];
@@ -102,7 +102,7 @@ if (!isset($_SESSION['correo'])) {
                     echo "<td>" . $row['misión'] . "</td>";
                     echo "<td>" . $row['visión'] . "</td>";
                     echo '<td><a href="empresa_form.php?edit_id=' . $row['id'] . '">Editar</a></td>';
-                    echo '<td><a href="empresa_process.php?delete_id=' . $row['id'] . '">Eliminar</a></td>';
+                    echo '<td><a href="../functions/empresa_process.php?delete_id=' . $row['id'] . '">Eliminar</a></td>';
                     echo "</tr>";
                 }
             } else {

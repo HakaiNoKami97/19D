@@ -12,9 +12,9 @@ if (!isset($_SESSION['correo'])) {
 <!DOCTYPE html>
 <html>
 <head>
-    <link href="css/styleservicio.css" rel="stylesheet" />
-    <link href="css/dashboard.css" rel="stylesheet" />
-    <title>SERVICIOS 19D</title>
+    <link href="../css/styledesarrollo.css" rel="stylesheet" />
+    <link href="../css/dashboard.css" rel="stylesheet" />
+    <title>DESARROLLO 19D</title>
 </head>
 <body>
     <div class="dashboard">
@@ -24,15 +24,15 @@ if (!isset($_SESSION['correo'])) {
                 <li><a href="empresa_form.php">Nosotros</a></li>
                 <li><a href="servicio_form.php">Registrar Servicio</a></li>                
                 <li><a href="desarrollo_form.php">Registrar Desarrollo</a></li>
-                <li><a href="logout.php">Cerrar Sesión</a></li>
+                <li><a href="../functions/logout.php">Cerrar Sesión</a></li>
             </ul>
         </div>
     <div class="content">
         <div class="container">
-            <h2>Registrar Servicio</h2>
+            <h2>Registrar Desarrollo</h2>
             
             <!-- Formulario para agregar/editar registros -->
-            <form action="servicio_process.php" method="post" enctype="multipart/form-data">
+            <form action="../functions/desarrollo_process.php" method="post" enctype="multipart/form-data">
                 <?php
                 if (isset($_GET['edit_id'])) {
                     $edit_id = $_GET['edit_id'];
@@ -47,16 +47,16 @@ if (!isset($_SESSION['correo'])) {
                         die("Error al conectarse a la base de datos: " . $conn->connect_error);
                     }
 
-                    $sql = "SELECT * FROM servicio WHERE id = $edit_id";
+                    $sql = "SELECT * FROM desarrollo WHERE id = $edit_id";
                     $result = $conn->query($sql);
 
                     if ($result->num_rows > 0) {
                         $row = $result->fetch_assoc();
-                        echo "<h3>Editar Servicio</h3>";
-                        echo '<form action="servicio_process.php" method="post" enctype="multipart/form-data">';
+                        echo "<h3>Editar Desarrollo</h3>";
+                        echo '<form action="../functions/desarrollo_process.php" method="post" enctype="multipart/form-data">';
                         echo 'Nombre: <input type="text" name="nombre" value="' . $row['nombre'] . '" required><br>';
                         echo 'Descripción: <textarea name="descripcion" rows="3" required>' . $row['descripción'] . '</textarea><br>';
-                        echo 'Imagen Actual: <img src="' . $row['imagen']. '" alt="Imagen del Servicio" width="100"><br>';
+                        echo 'Imagen Actual: <img src="' . $row['imagen']. '" alt="Imagen del Desarrollo" width="100"><br>';
                         echo 'Nueva Imagen: <input type="file" name="imagen" accept="image/*"><br>';
                         echo '<input type="hidden" name="edit_id" value="' . $edit_id . '">';
                         echo '<input type="submit" name="update" value="Actualizar">';
@@ -101,7 +101,7 @@ if (!isset($_SESSION['correo'])) {
                 }
 
                 // Realizar consulta a la tabla "empresa"
-                $sql = "SELECT * FROM servicio";
+                $sql = "SELECT * FROM desarrollo";
                 $result = $conn->query($sql);
 
                 if ($result->num_rows > 0) {
@@ -110,10 +110,10 @@ if (!isset($_SESSION['correo'])) {
                         echo "<td>" . $row['id'] . "</td>";
                         echo "<td>" . $row['nombre'] . "</td>";
                         echo "<td>" . $row['descripción'] . "</td>";
-                        echo "<td><img src='" . $row['imagen'] . "' alt='Imagen de Servicio' width='100'></td>";
+                        echo "<td><img src='" . $row['imagen'] . "' alt='Imagen de Desarrollo' width='100'></td>";
                         echo "<td>" . $row['fecha'] . "</td>";
-                        echo '<td><a href="servicio_form.php?edit_id=' . $row['id'] . '">Editar</a></td>';
-                        echo '<td><a href="servicio_process.php?delete_id=' . $row['id'] . '">Eliminar</a></td>';
+                        echo '<td><a href="desarrollo_form.php?edit_id=' . $row['id'] . '">Editar</a></td>';
+                        echo '<td><a href="../functions/desarrollo_process.php?delete_id=' . $row['id'] . '">Eliminar</a></td>';
                         echo "</tr>";
                     }
                 } else {

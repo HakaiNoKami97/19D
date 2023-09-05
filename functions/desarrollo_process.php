@@ -31,7 +31,7 @@
         if (empty($nombre) || empty($descripcion)) {
             echo "<script>
                     Swal.fire('Advertencia', 'Por favor, completa todos los campos antes de enviar el formulario.', 'warning').then(function() {
-                        window.location.href = 'desarrollo_form.php';
+                        window.location.href = '../panel/desarrollo_form.php';
                     });
                   </script>";
             exit();
@@ -48,13 +48,13 @@
         if ($conn->query($sql) === TRUE) {
             echo "<script>
                     Swal.fire('Éxito', 'Registro de desarrollo exitoso', 'success').then(function() {
-                        window.location.href = 'desarrollo_form.php';
+                        window.location.href = '../panel/desarrollo_form.php';
                     });
                   </script>";
         } else {
             echo "<script>
                     Swal.fire('Error', 'Error al registrar desarrollo: " . $conn->error . "', 'error').then(function() {
-                        window.location.href = 'desarrollo_form.php';
+                        window.location.href = '../panel/desarrollo_form.php';
                     });
                   </script>";
         }
@@ -66,7 +66,7 @@
         if (empty($nombre) || empty($descripcion)) {
             echo "<script>
                     Swal.fire('Advertencia', 'Por favor, completa todos los campos antes de enviar el formulario.', 'warning').then(function() {
-                        window.location.href = 'desarrollo_form.php';
+                        window.location.href = '../panel/desarrollo_form.php';
                     });
                 </script>";
             exit();
@@ -78,7 +78,7 @@
             $imagen_tmp = $_FILES['imagen']['tmp_name'];
 
             // Ruta donde se guardarán las imágenes
-            $imagen_ruta = "uploads/" . $imagen_nombre;
+            $imagen_ruta = "../uploads/" . $imagen_nombre;
 
             // Subir nueva imagen al servidor
             move_uploaded_file($imagen_tmp, $imagen_ruta);
@@ -101,13 +101,13 @@
         if ($conn->query($sql) === TRUE) {
             echo "<script>
                     Swal.fire('Éxito', 'Actualización de desarrollo exitosa', 'success').then(function() {
-                        window.location.href = 'desarrollo_form.php';
+                        window.location.href = '../panel/desarrollo_form.php';
                     });
                 </script>";
         } else {
             echo "<script>
                     Swal.fire('Error', 'Error al actualizar desarrollo: " . $conn->error . "', 'error').then(function() {
-                        window.location.href = 'desarrollo_form.php';
+                        window.location.href = '../panel/desarrollo_form.php';
                     });
                 </script>";
         }
@@ -120,13 +120,13 @@
         if ($conn->query($sql) === TRUE) {
             echo "<script>
                     Swal.fire('Éxito', 'Registro eliminado exitosamente', 'success').then(function() {
-                        window.location.href = 'desarrollo_form.php';
+                        window.location.href = '../panel/desarrollo_form.php';
                     });
                 </script>";
         } else {
             echo "<script>
                     Swal.fire('Error', 'Error al eliminar registro: " . $conn->error . "', 'error').then(function() {
-                        window.location.href = 'desarrollo_form.php';
+                        window.location.href = '../panel/desarrollo_form.php';
                     });
                 </script>";
         }

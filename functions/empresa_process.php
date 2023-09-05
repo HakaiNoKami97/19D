@@ -32,7 +32,7 @@ if (isset($_POST['save'])) {
     if (empty($mision) || empty($vision)) {
         echo "<script>
                 Swal.fire('Advertencia', 'Por favor, completa todos los campos antes de enviar el formulario.', 'warning').then(function() {
-                    window.location.href = 'empresa_form.php';
+                    window.location.href = '../panel/empresa_form.php';
                 });
               </script>";
         exit();
@@ -44,13 +44,13 @@ if (isset($_POST['save'])) {
     if ($conn->query($sql) === TRUE) {
         echo "<script>
                 Swal.fire('Éxito', 'Registro de empresa exitoso', 'success').then(function() {
-                    window.location.href = 'empresa_form.php';
+                    window.location.href = '../panel/empresa_form.php';
                 });
               </script>";
     } else {
         echo "<script>
                 Swal.fire('Error', 'Error al registrar empresa: " . $conn->error . "', 'error').then(function() {
-                    window.location.href = 'empresa_form.php';
+                    window.location.href = '../panel/empresa_form.php';
                 });
               </script>";
     }
@@ -62,7 +62,7 @@ if (isset($_POST['save'])) {
     if (empty($mision) || empty($vision)) {
         echo "<script>
                 Swal.fire('Advertencia', 'Por favor, completa todos los campos antes de enviar el formulario.', 'warning').then(function() {
-                    window.location.href = 'empresa_form.php';
+                    window.location.href = '../panel/empresa_form.php';
                 });
               </script>";
         exit();
@@ -76,13 +76,13 @@ if (isset($_POST['save'])) {
     if ($conn->query($sql) === TRUE) {
         echo "<script>
                 Swal.fire('Éxito', 'Actualización de empresa exitosa', 'success').then(function() {
-                    window.location.href = 'empresa_form.php';
+                    window.location.href = '../panel/empresa_form.php';
                 });
               </script>";
     } else {
         echo "<script>
                 Swal.fire('Error', 'Error al actualizar empresa: " . $conn->error . "', 'error').then(function() {
-                    window.location.href = 'empresa_form.php';
+                    window.location.href = '../panel/empresa_form.php';
                 });
               </script>";
     }
@@ -94,13 +94,13 @@ if (isset($_POST['save'])) {
     if ($conn->query($sql) === TRUE) {
         echo "<script>
                 Swal.fire('Éxito', 'Registro eliminado exitosamente', 'success').then(function() {
-                    window.location.href = 'empresa_form.php';
+                    window.location.href = '../panel/empresa_form.php';
                 });
               </script>";
     } else {
         echo "<script>
                 Swal.fire('Error', 'Error al eliminar registro: " . $conn->error . "', 'error').then(function() {
-                    window.location.href = 'empresa_form.php';
+                    window.location.href = '../panel/empresa_form.php';
                 });
               </script>";
     }
@@ -116,7 +116,7 @@ if (isset($_POST['save'])) {
 }*/
 
 $conn->close();
-header("Location: empresa_form.php");
+header("Location: ../panel/empresa_form.php");
 exit();
 ?>
 </body>

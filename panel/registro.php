@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link href="css/styleregistro.css" rel="stylesheet" />
+    <link href="../css/styleregistro.css" rel="stylesheet" />
     <title>SIGN UP 19D</title>
 </head>
 <body>
     <div class="container">
         <h2>Registro de Usuario</h2>
-        <form action="registroconexion.php" method="post">
+        <form action="../functions/registroconexion.php" method="post">
             Cedula: <input type="text" id="id" name="id" required><br>
             Correo: <input type="email" id="correo" name="correo" required><br>
             Contraseña: <input type="password" id="contraseña" name="contraseña" required><br>
