@@ -59,7 +59,7 @@ if ($conn->query($sql) === TRUE) {
     mail($to, $subject, $message, $headers);
     echo "<script>
             Swal.fire('Éxito', 'Registro exitoso.', 'success').then(function() {
-                window.location.href = '../panel/login.php';
+                window.location.href = '../login.php';
             });
           </script>";
 } else {
