@@ -8,19 +8,7 @@
 </head>
 <body>
 <?php
-$servername = "localhost:3306";
-$username = "root";
-$password = "";
-$dbname = "administrador";
-
-$correo = $_POST['correo'];
-$contraseña = $_POST['contraseña'];
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-if ($conn->connect_error) {
-    die("Error al conectarse a la base de datos: " . $conn->connect_error);
-}
+require_once 'conexion.php';
 
 $sql = "SELECT * FROM usuario WHERE correo = '$correo'";
 $result = $conn->query($sql);

@@ -8,16 +8,7 @@
 </head>
 <body>
 <?php
-$servername = "localhost:3306";
-$username = "root";
-$password = "";
-$dbname = "administrador";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-if ($conn->connect_error) {
-    die("Error al conectarse a la base de datos: " . $conn->connect_error);
-}
+require_once 'conexion.php';
 
 if (isset($_POST['save'])) {
     $nombre = trim($_POST['nombre']);
@@ -76,7 +67,7 @@ if (isset($_POST['save'])) {
         $imagen_tmp = $_FILES['imagen']['tmp_name'];
 
         // Ruta donde se guardarán las imágenes
-        $imagen_ruta = "uploads/" . $imagen_nombre;
+        $imagen_ruta = "../uploads/" . $imagen_nombre;
 
         // Subir nueva imagen al servidor
         move_uploaded_file($imagen_tmp, $imagen_ruta);

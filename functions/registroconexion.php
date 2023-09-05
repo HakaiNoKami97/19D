@@ -8,10 +8,7 @@
 </head>
 <body>
 <?php
-$servername = "localhost:3306";
-$username = "root";
-$password = "";
-$dbname = "administrador";
+require_once 'conexion.php';
 
 $cedula = trim($_POST['id']);
 $correo = trim($_POST['correo']);
@@ -49,12 +46,6 @@ if (strlen($cedula) === 0 || strlen($correo) === 0 || strlen($telefono) === 0) {
 
 // Encriptar la contraseña
 $contraseña_encriptada = password_hash($contraseña, PASSWORD_DEFAULT);
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-if ($conn->connect_error) {
-    die("Error al conectarse a la base de datos: " . $conn->connect_error);
-}
 
 $sql = "INSERT INTO usuario (id, correo, contraseña, telefono, fecha, tipousuarioid)
         VALUES ('$cedula', '$correo', '$contraseña_encriptada', '$telefono', '$fecha', $tipousuarioid)";
