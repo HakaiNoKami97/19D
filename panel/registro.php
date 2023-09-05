@@ -20,7 +20,7 @@
             </select><br>
             <input type="submit" value="Registrar">
         </form>
-        <p>¿Ya tienes una cuenta? <a href="login.php">Iniciar Sesión</a></p>
+        <p>¿Ya tienes una cuenta? <a href="../login.php">Iniciar Sesión</a></p>
     </div>    
 </body>
 </html>

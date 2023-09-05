@@ -30,14 +30,14 @@ if ($result->num_rows > 0) {
     } else {
         echo "<script>
                 Swal.fire('Error', 'Contraseña incorrecta', 'error').then(function() {
-                    window.location.href = '../panel/login.php';
+                    window.location.href = '../login.php';
                 });
               </script>";
     }
 } else {
     echo "<script>
             Swal.fire('Advertencia', 'Usuario no registrado. <a href=\'registro.php\'>Registrarse</a>', 'warning').then(function() {
-                window.location.href = '../panel/login.php';
+                window.location.href = '../login.php';
             });
           </script>";
 }
