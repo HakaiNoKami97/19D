@@ -34,7 +34,7 @@ CREATE TABLE `desarrollo` (
   `imagen` varchar(100) DEFAULT NULL,
   `desarrollouserid` int DEFAULT NULL,
   `fecha` datetime DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Volcado de datos para la tabla `desarrollo`
@@ -57,7 +57,7 @@ CREATE TABLE `empresa` (
   `id` int NOT NULL,
   `misión` text,
   `visión` text
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Volcado de datos para la tabla `empresa`
@@ -74,12 +74,12 @@ INSERT INTO `empresa` (`id`, `misión`, `visión`) VALUES
 
 CREATE TABLE `servicio` (
   `id` int NOT NULL,
-  `nombre` varchar(200) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `nombre` varchar(200) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   `descripción` text,
   `imagen` varchar(100) DEFAULT NULL,
   `serviciouserid` int DEFAULT NULL,
   `fecha` datetime DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Volcado de datos para la tabla `servicio`
@@ -100,7 +100,7 @@ INSERT INTO `servicio` (`id`, `nombre`, `descripción`, `imagen`, `serviciouseri
 CREATE TABLE `tipo_usuario` (
   `id` int NOT NULL,
   `tipo` varchar(50) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Volcado de datos para la tabla `tipo_usuario`
@@ -118,12 +118,12 @@ INSERT INTO `tipo_usuario` (`id`, `tipo`) VALUES
 
 CREATE TABLE `usuario` (
   `id` int NOT NULL,
-  `correo` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `contraseña` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `correo` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `contraseña` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `tipousuarioid` int DEFAULT NULL,
   `fecha` datetime DEFAULT NULL,
   `telefono` varchar(20) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Volcado de datos para la tabla `usuario`

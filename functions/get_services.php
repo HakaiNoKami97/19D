@@ -1,4 +1,5 @@
 <?php
+ini_set('display_errors', 1);
 require_once 'conexion.php';
 
 $sql = "SELECT * FROM servicio";
@@ -7,17 +8,16 @@ $result = $conn->query($sql);
 $services = array();
 
 if ($result->num_rows > 0) {
-    while($row = $result->fetch_assoc()){
+    while($data = $result->fetch_assoc()){
         $services[] = array(
-            'imagen' => $row['imagen'],
-            'nombre' => $row['nombre'],
-            'descripcion' => $row['descripción']
+            'imagen' => utf8_encode($data['imagen']),
+            'nombre' => utf8_encode($data['nombre']),
+            'descripcion' => utf8_encode($data['descripcion'])
         );
-    }                    
+    }
+    $result->free();
 }
-
 $conn->close();
-
-header('Content-Type: application/json');
-echo json_encode($services);
+// header('Content-type: application/json; charset=utf-8');
+echo json_encode($services, 5000);
 ?>

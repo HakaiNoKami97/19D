@@ -374,10 +374,15 @@ a:focus {
 .service_section .service_container .service_box .img-box {
   border-radius: 18px;
   overflow: hidden;
+  /* width: 342px; */
+  /* height: 342px; */
+  display: flex;
+  /* justify-content: center; */
+  /* align-content: center; */
 }
 
 .service_section .service_container .service_box .img-box img {
-  width: 100%;
+    width: 100%;
 }
 
 .service_section .service_container .service_box .detail-box {

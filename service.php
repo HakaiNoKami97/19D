@@ -88,7 +88,7 @@
         $(document).ready(function() {
             $.ajax({
                 url: 'functions/get_services.php', // Ruta al archivo PHP que obtiene los servicios
-                method: 'GET',
+                type: 'post',
                 dataType: 'json',
                 success: function(data) {
                     var servicesContainer = $('#servicesContainer');
@@ -111,7 +111,8 @@
                         servicesContainer.html('No se encontraron detalles de desarrollo.');
                     }
                 },
-                error: function() {
+                error: function(xhr) {
+                    console.log(xhr);
                     var servicesContainer = $('#servicesContainer');
                     servicesContainer.html('Error al cargar los servicios.');
                 }
