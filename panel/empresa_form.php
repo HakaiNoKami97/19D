@@ -1,12 +1,13 @@
 <?php
 // Inicia o reanuda la sesión
 session_start();
-
+ini_set('display_errors', 1);
 // Verifica si el usuario ha iniciado sesión
 if (!isset($_SESSION['correo'])) {
     header("Location: ../login.php");
     exit();
 }
+require_once '../functions/conexion.php';
 ?>
 
 <!DOCTYPE html>
@@ -35,16 +36,6 @@ if (!isset($_SESSION['correo'])) {
             <?php
             if (isset($_GET['edit_id'])) {
                 $edit_id = $_GET['edit_id'];
-                $servername = "localhost:3306";
-                $username = "root";
-                $password = "";
-                $dbname = "administrador";
-
-                $conn = new mysqli($servername, $username, $password, $dbname);
-
-                if ($conn->connect_error) {
-                    die("Error al conectarse a la base de datos: " . $conn->connect_error);
-                }
 
                 $sql = "SELECT * FROM empresa WHERE id = $edit_id";
                 $result = $conn->query($sql);
@@ -80,16 +71,6 @@ if (!isset($_SESSION['correo'])) {
             </tr>
             
             <?php
-            $servername = "localhost:3306";
-            $username = "root";
-            $password = "";
-            $dbname = "administrador";
-
-            $conn = new mysqli($servername, $username, $password, $dbname);
-
-            if ($conn->connect_error) {
-                die("Error al conectarse a la base de datos: " . $conn->connect_error);
-            }
 
             // Realizar consulta a la tabla "empresa"
             $sql = "SELECT * FROM empresa";

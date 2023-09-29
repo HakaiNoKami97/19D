@@ -65,7 +65,7 @@ require_once '../functions/conexion.php';
                 ?>
             </form>
 
-            <h2>Sobre Nosotros</h2>
+            <h2>Nuestros Desarrollos</h2>
             <table>
                 <tr>
                     <th>ID</th>
